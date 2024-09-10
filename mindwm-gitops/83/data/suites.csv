@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 10 14:04:44 GMT 2024","Tue Sep 10 14:05:36 GMT 2024","52307","","test_infra","TestClass","","","test_argocd_app",""
+"passed","Tue Sep 10 14:03:49 GMT 2024","Tue Sep 10 14:04:44 GMT 2024","55042","","test_infra","TestClass","","","test_cluster",""
+"passed","Tue Sep 10 14:13:08 GMT 2024","Tue Sep 10 14:13:09 GMT 2024","1171","","test_infra","TestClass","","","test_crossplane_rolebinding_workaround",""
+"passed","Tue Sep 10 14:05:36 GMT 2024","Tue Sep 10 14:05:38 GMT 2024","1759","","test_infra","TestClass","","","test_argocd_app_sync_async",""
+"passed","Tue Sep 10 14:05:38 GMT 2024","Tue Sep 10 14:13:08 GMT 2024","449925","","test_infra","TestClass","","","test_argocd_app_async_wait",""
+"passed","Tue Sep 10 14:13:09 GMT 2024","Tue Sep 10 14:13:11 GMT 2024","1956","","test_infra","TestClass","","","test_argocd_apps_ensure",""
