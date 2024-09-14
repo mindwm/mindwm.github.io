@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Sep 14 18:42:21 GMT 2024","Sat Sep 14 18:42:21 GMT 2024","3","","mindwm_lifecycle","","","","test_scenarios[file:mindwm_lifecycle.feature-Minwdm custom resource definition-]",""
