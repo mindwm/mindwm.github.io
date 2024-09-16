@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Sep 16 16:03:47 GMT 2024","Mon Sep 16 16:03:48 GMT 2024","1043","features","mindwm_crd","","","","test_scenarios[file:features/mindwm_crd.feature-Minwdm custom resource definition-]",""
