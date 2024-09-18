@@ -1,1 +1,0 @@
-{"f1f3577765f74b8c2c8af529accff10e":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"ad35c2c712ab5ba5","reportUrl":"https://mindwm.github.io/mindwm-gitops/110//#testresult/ad35c2c712ab5ba5","status":"broken","statusDetails":"KeyError: 'status'","time":{"start":1726448310921,"stop":1726448310948,"duration":27}}]}}
