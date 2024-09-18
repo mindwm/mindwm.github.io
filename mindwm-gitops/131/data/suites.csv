@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Sep 18 22:45:29 GMT 2024","Wed Sep 18 22:45:29 GMT 2024","30","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Context]",""
-"passed","Wed Sep 18 22:36:16 GMT 2024","Wed Sep 18 22:45:29 GMT 2024","552862","features","0_minwdm_lifecycle","","","","test_scenarios[file:features/0_minwdm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
+"passed","Wed Sep 18 22:49:33 GMT 2024","Wed Sep 18 23:04:39 GMT 2024","906005","features","0_minwdm_lifecycle","","","","test_scenarios[file:features/0_minwdm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
+"broken","Wed Sep 18 23:04:39 GMT 2024","Wed Sep 18 23:04:39 GMT 2024","42","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Context]",""
