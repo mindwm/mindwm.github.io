@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 18 13:46:04 GMT 2024","Wed Sep 18 13:46:15 GMT 2024","11321","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create User]",""
+"passed","Wed Sep 18 13:46:26 GMT 2024","Wed Sep 18 13:46:30 GMT 2024","3267","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Delete Resources and Verify Cleanup]",""
+"passed","Wed Sep 18 13:34:49 GMT 2024","Wed Sep 18 13:46:01 GMT 2024","671540","features","0_minwdm_lifecycle","","","","test_scenarios[file:features/0_minwdm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
+"passed","Wed Sep 18 13:46:01 GMT 2024","Wed Sep 18 13:46:04 GMT 2024","3058","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Context]",""
+"passed","Wed Sep 18 13:46:15 GMT 2024","Wed Sep 18 13:46:26 GMT 2024","11139","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Host]",""
