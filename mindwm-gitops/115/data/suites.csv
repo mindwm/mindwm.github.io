@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Sep 16 19:56:31 GMT 2024","Mon Sep 16 19:56:31 GMT 2024","27","features","kubernetes","","","","test_scenarios[file:features/kubernetes.feature-Kubernetes cluster-]",""
-"failed","Mon Sep 16 19:56:43 GMT 2024","Mon Sep 16 19:56:54 GMT 2024","11062","features","mindwm_crd","","","","test_scenarios[file:features/mindwm_crd.feature-MindWM Custom Resource Definition-Create Host]",""
-"passed","Mon Sep 16 19:56:32 GMT 2024","Mon Sep 16 19:56:43 GMT 2024","11071","features","mindwm_crd","","","","test_scenarios[file:features/mindwm_crd.feature-MindWM Custom Resource Definition-Create User]",""
-"passed","Mon Sep 16 19:56:31 GMT 2024","Mon Sep 16 19:56:32 GMT 2024","1041","features","mindwm_crd","","","","test_scenarios[file:features/mindwm_crd.feature-MindWM Custom Resource Definition-Create Context]",""
