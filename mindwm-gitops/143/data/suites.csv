@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Sep 20 17:31:31 GMT 2024","Fri Sep 20 17:34:08 GMT 2024","156484","features","0_0_mindwm_lifecycle","","","","test_scenarios[file:features/0_0_mindwm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
