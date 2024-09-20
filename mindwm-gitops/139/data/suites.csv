@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 20 14:54:11 GMT 2024","Fri Sep 20 14:54:13 GMT 2024","2240","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Delete Resources and Verify Cleanup]",""
+"passed","Fri Sep 20 14:53:39 GMT 2024","Fri Sep 20 14:53:49 GMT 2024","10102","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Context]",""
+"passed","Fri Sep 20 14:53:49 GMT 2024","Fri Sep 20 14:54:00 GMT 2024","11384","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create User]",""
+"passed","Fri Sep 20 14:42:04 GMT 2024","Fri Sep 20 14:53:39 GMT 2024","694291","features","0_minwdm_lifecycle","","","","test_scenarios[file:features/0_minwdm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
+"failed","Fri Sep 20 14:54:13 GMT 2024","Fri Sep 20 14:55:46 GMT 2024","92868","features","2_mindwm_crd_resources","","","","test_scenarios[file:features/2_mindwm_crd_resources.feature-MindWM Custom kubernetes resources-Create Context and check k8s resources]",""
+"passed","Fri Sep 20 14:54:00 GMT 2024","Fri Sep 20 14:54:11 GMT 2024","11136","features","1_mindwm_crd","","","","test_scenarios[file:features/1_mindwm_crd.feature-MindWM Custom Resource Definition-Create Host]",""
