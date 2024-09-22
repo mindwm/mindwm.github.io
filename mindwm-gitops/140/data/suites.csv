@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Sep 20 16:45:33 GMT 2024","Fri Sep 20 16:45:33 GMT 2024","5","features","0_1_mindwm_eda","","","","test_scenarios[file:features/0_1_mindwm_eda.feature-Mindwm event driven architecture-Knative]",""
