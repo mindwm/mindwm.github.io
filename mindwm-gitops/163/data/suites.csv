@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sun Sep 22 13:12:02 GMT 2024","Sun Sep 22 13:22:02 GMT 2024","600584","features","0_1_mindwm_eda","","","","test_scenarios[file:features/0_1_mindwm_eda.feature-Mindwm event driven architecture-Redpanda]",""
+"passed","Sun Sep 22 12:59:55 GMT 2024","Sun Sep 22 13:12:01 GMT 2024","725992","features","0_0_mindwm_lifecycle","","","","test_scenarios[file:features/0_0_mindwm_lifecycle.feature-Mindwm Lifecycle Management-Deploy Mindwm Cluster and Applications]",""
+"passed","Sun Sep 22 13:12:01 GMT 2024","Sun Sep 22 13:12:01 GMT 2024","399","features","0_1_mindwm_eda","","","","test_scenarios[file:features/0_1_mindwm_eda.feature-Mindwm event driven architecture-Knative]",""
+"passed","Sun Sep 22 13:12:01 GMT 2024","Sun Sep 22 13:12:02 GMT 2024","106","features","0_1_mindwm_eda","","","","test_scenarios[file:features/0_1_mindwm_eda.feature-Mindwm event driven architecture-Istio]",""
