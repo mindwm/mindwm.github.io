@@ -1,0 +1,4 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '8a398b2f-2d10-463f-a963-312d56913d31', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6091cae2-d342-4bf2-b0da-67ee79cb216d', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'ab97946e-0d00-467f-8252-fb61a71f9f3e', 'Date': 'Mon, 07 Oct 2024 17:40:46 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
