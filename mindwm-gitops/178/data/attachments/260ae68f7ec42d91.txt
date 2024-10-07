@@ -1,0 +1,10 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2033ff3c-2855-408c-8383-96a502b68a85', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3d384adb-d1c2-4a47-843f-a9829c71fcec', 'X-Kubernetes-Pf-Prioritylevel-Uid': '76a374a1-1f93-428e-be50-fd12543a79ad', 'Date': 'Mon, 07 Oct 2024 18:10:01 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '925c74cf-6068-4393-8195-f03a2011f2d2', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3d384adb-d1c2-4a47-843f-a9829c71fcec', 'X-Kubernetes-Pf-Prioritylevel-Uid': '76a374a1-1f93-428e-be50-fd12543a79ad', 'Date': 'Mon, 07 Oct 2024 18:10:02 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
