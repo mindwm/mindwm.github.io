@@ -1,0 +1,77 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+k3s-uninstall.sh ; \
+sleep 10 # :)
+docker version -f json | jq -e '.Server.ApiVersion | select(tonumber >= 1.46)';
+"1.49"
+INSECURE_REGISTRY="zot-int.zot.svc.cluster.local:5000"
+DOCKER_CONFIG="/etc/docker/daemon.json"
+if [[ ! -f "$DOCKER_CONFIG" ]]; then
+echo "{}" | sudo tee "$DOCKER_CONFIG" > /dev/null
+fi
+if ! jq -e ".\"insecure-registries\" | index(\"$INSECURE_REGISTRY\")" "$DOCKER_CONFIG" > /dev/null; then
+TMP_FILE=/tmp/daemon.json
+jq --arg reg "$INSECURE_REGISTRY" '
+.["insecure-registries"] += [$reg] // { "insecure-registries": [$reg] }
+' "$DOCKER_CONFIG" > "$TMP_FILE" && sudo mv "$TMP_FILE" "$DOCKER_CONFIG"
+echo "Restarting Docker daemon..."
+sudo systemctl restart docker
+fi
+Restarting Docker daemon...
+grep -q '^search [^\.]' /etc/resolv.conf || exit 0
+cat<<EOF
+Please turn off search domain option from your resolv.conf file
+More details here:
+https://github.com/mindwm/mindwm-gitops/issues/64
+https://github.com/k3s-io/k3s/issues/5567
+https://github.com/k3s-io/k3s/issues/9286
+EOF
+exit 1 
+curl -sfL https://get.k3s.io | INSTALL_K3S_VERSION=v1.33.0+k3s1 INSTALL_K3S_EXEC="server --disable=traefik --cluster-init" sh -s - --docker && sleep 30 && \
+test -d ~/.kube || mkdir ~/.kube ;\
+sudo cat /etc/rancher/k3s/k3s.yaml > ~/.kube/config && \
+make fix_dns_upstream forward_dns_cluster_local
+[INFO]  Using v1.33.0+k3s1 as release
+[INFO]  Downloading hash https://github.com/k3s-io/k3s/releases/download/v1.33.0+k3s1/sha256sum-amd64.txt
+[INFO]  Downloading binary https://github.com/k3s-io/k3s/releases/download/v1.33.0+k3s1/k3s
+[INFO]  Verifying binary download
+[INFO]  Installing k3s to /usr/local/bin/k3s
+[INFO]  Skipping installation of SELinux RPM
+[INFO]  Skipping /usr/local/bin/kubectl symlink to k3s, command exists in PATH at /usr/bin/kubectl
+[INFO]  Creating /usr/local/bin/crictl symlink to k3s
+[INFO]  Skipping /usr/local/bin/ctr symlink to k3s, command exists in PATH at /usr/bin/ctr
+[INFO]  Creating killall script /usr/local/bin/k3s-killall.sh
+[INFO]  Creating uninstall script /usr/local/bin/k3s-uninstall.sh
+[INFO]  env: Creating environment file /etc/systemd/system/k3s.service.env
+[INFO]  systemd: Creating service file /etc/systemd/system/k3s.service
+[INFO]  systemd: Enabling k3s unit
+[INFO]  systemd: Starting k3s
+make[2]: Entering directory '/home/ci/mindwm-gitops'
+docker run -i --rm -v ~/.kube:/kube -e KUBECONFIG=/kube/config --network=host -v`pwd`:/host -w /host -u root --entrypoint /bin/sh bitnami/kubectl:1.31.1 -c '\
+	while :; do \
+		kubectl -n kube-system get pods -l k8s-app=kube-dns | grep coredns || { \
+			echo -n .; \
+			sleep 1; \
+			continue; \
+		}; \
+		break; \
+	done ; \
+	kubectl -n kube-system wait --for=condition=Ready pod --timeout=180s -l k8s-app=kube-dns && \
+	kubectl -n kube-system get configmap coredns -o yaml | sed "s,forward . /etc/resolv.conf,forward \. 8.8.8.8," | kubectl apply -f - && \
+	kubectl delete pod -n kube-system -l k8s-app=kube-dns \
+'
+coredns-697968c856-d9knj   1/1     Running   0          29s
+pod/coredns-697968c856-d9knj condition met
+configmap/coredns configured
+pod "coredns-697968c856-d9knj" deleted
+(test -d /etc/systemd/resolved.conf.d || sudo mkdir -p /etc/systemd/resolved.conf.d)
+cat<<EOF | sudo tee /etc/systemd/resolved.conf.d/k8s-dns.conf
+[Resolve]
+DNS=127.0.0.1:30002
+Domains=~svc.cluster.local
+EOF
+sudo systemctl restart systemd-resolved
+[Resolve]
+DNS=127.0.0.1:30002
+Domains=~svc.cluster.local
+make[2]: Leaving directory '/home/ci/mindwm-gitops'
+make[1]: Leaving directory '/home/ci/mindwm-gitops'
