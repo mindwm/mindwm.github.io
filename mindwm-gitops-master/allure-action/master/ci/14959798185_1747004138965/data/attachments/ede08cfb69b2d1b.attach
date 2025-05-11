@@ -1,0 +1,7 @@
+'/workspace/source/Procfile' -> '/workspace/build/Procfile'
+'/workspace/source/README.md' -> '/workspace/build/README.md'
+'/workspace/source/app.sh' -> '/workspace/build/app.sh'
+'/workspace/source/func.py' -> '/workspace/build/func.py'
+'/workspace/source/func.yaml' -> '/workspace/build/func.yaml'
+'/workspace/source/requirements.txt' -> '/workspace/build/requirements.txt'
+'/workspace/source/test_func.py' -> '/workspace/build/test_func.py'
