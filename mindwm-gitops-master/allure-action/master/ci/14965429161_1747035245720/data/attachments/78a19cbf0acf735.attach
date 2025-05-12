@@ -1,0 +1,9 @@
+{
+    "Content-Type": "application/json",
+    "Ce-specversion": "1.0",
+    "ce-id": "5d306b66-7764-48c4-876e-e7d97a5d3f5d",
+    "ce-specversion": "1.0",
+    "ce-subject": "#ping",
+    "ce-type": "org.mindwm.v1.iodocument",
+    "ce-source": "org.mindwm.alice.localhost.L3RtcC90bXV4LTEwMDAvZGVmYXVsdA==.09fb195c-c419-6d62-15e0-51b6ee990922.23.36.iodocument"
+}
