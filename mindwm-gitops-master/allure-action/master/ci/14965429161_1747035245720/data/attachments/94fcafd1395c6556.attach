@@ -1,2 +1,0 @@
-MATCH (n:User)
-DELETE n;
