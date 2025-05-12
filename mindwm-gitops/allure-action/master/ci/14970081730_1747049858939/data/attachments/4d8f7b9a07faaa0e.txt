@@ -1,0 +1,4 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '73d3a234-7de6-46c5-bdb6-66407aee15df', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'aa4da4a8-7902-44f4-b853-4a83e47a5f56', 'X-Kubernetes-Pf-Prioritylevel-Uid': '9c1723de-d30a-4c56-89c1-6c3d02d85d47', 'Date': 'Mon, 12 May 2025 11:03:38 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"iocontext\" not found","reason":"NotFound","details":{"name":"iocontext","group":"serving.knative.dev","kind":"services"},"code":404}
