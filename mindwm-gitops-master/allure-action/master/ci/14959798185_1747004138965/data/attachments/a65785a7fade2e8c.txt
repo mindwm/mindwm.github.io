@@ -1,2 +1,0 @@
-ERROR    root:conftest.py:838 XXX test-function
-ERROR    utils:utils.py:471 Command failed with exit code 1: error: error from server (NotFound): pods "mindwm-function-build-run-resolve-host-pod" not found in namespace "test-function"
