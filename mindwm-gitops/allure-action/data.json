@@ -2,6 +2,7 @@
   "links": [
     "..",
     "chore_switch_to_argo_cd_order_upstream",
+    "fix_knative_tracing_configuration",
     "master"
   ]
 }

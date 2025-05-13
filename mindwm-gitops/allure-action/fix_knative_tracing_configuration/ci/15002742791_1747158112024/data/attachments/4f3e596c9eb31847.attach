@@ -1,0 +1,2 @@
+NAME                BROKER           SUBSCRIBER_URI                                    AGE     READY   REASON
+iocontext-trigger   context-broker   http://iocontext.context-cyan.svc.cluster.local   4m10s   False   PhysicalChannelSyncFailed

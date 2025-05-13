@@ -1,0 +1,167 @@
+{
+    "apiVersion": "eventing.knative.dev/v1",
+    "kind": "Trigger",
+    "metadata": {
+        "annotations": {
+            "eventing.knative.dev/creator": "system:serviceaccount:crossplane-system:provider-kubernetes-3c1712b01e08",
+            "eventing.knative.dev/lastModifier": "system:serviceaccount:crossplane-system:provider-kubernetes-3c1712b01e08",
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"eventing.knative.dev/v1\",\"kind\":\"Trigger\",\"metadata\":{\"name\":\"iocontext-trigger\",\"namespace\":\"context-cyan\"},\"spec\":{\"broker\":\"context-broker\",\"delivery\":{\"deadLetterSink\":{\"ref\":{\"apiVersion\":\"serving.knative.dev/v1\",\"kind\":\"Service\",\"name\":\"dead-letter\"}}},\"filters\":[{\"all\":[{\"exact\":{\"type\":\"org.mindwm.v1.iodocument\"}},{\"not\":{\"prefix\":{\"subject\":\"#\"}}}]}],\"subscriber\":{\"ref\":{\"apiVersion\":\"serving.knative.dev/v1\",\"kind\":\"Service\",\"name\":\"iocontext\"}}}}"
+        },
+        "creationTimestamp": "2025-05-13T17:37:14Z",
+        "generation": 1,
+        "labels": {
+            "eventing.knative.dev/broker": "context-broker"
+        },
+        "managedFields": [
+            {
+                "apiVersion": "eventing.knative.dev/v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            ".": {},
+                            "f:kubectl.kubernetes.io/last-applied-configuration": {}
+                        }
+                    },
+                    "f:spec": {
+                        ".": {},
+                        "f:broker": {},
+                        "f:delivery": {
+                            ".": {},
+                            "f:deadLetterSink": {
+                                ".": {},
+                                "f:ref": {
+                                    ".": {},
+                                    "f:apiVersion": {},
+                                    "f:kind": {},
+                                    "f:name": {}
+                                }
+                            }
+                        },
+                        "f:filters": {},
+                        "f:subscriber": {
+                            ".": {},
+                            "f:ref": {
+                                ".": {},
+                                "f:apiVersion": {},
+                                "f:kind": {},
+                                "f:name": {}
+                            }
+                        }
+                    }
+                },
+                "manager": "crossplane-kubernetes-provider",
+                "operation": "Update",
+                "time": "2025-05-13T17:37:14Z"
+            },
+            {
+                "apiVersion": "eventing.knative.dev/v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:status": {
+                        ".": {},
+                        "f:conditions": {},
+                        "f:deadLetterSinkUri": {},
+                        "f:observedGeneration": {},
+                        "f:subscriberUri": {}
+                    }
+                },
+                "manager": "mtchannel_broker",
+                "operation": "Update",
+                "subresource": "status",
+                "time": "2025-05-13T17:37:55Z"
+            }
+        ],
+        "name": "iocontext-trigger",
+        "namespace": "context-cyan",
+        "resourceVersion": "23504",
+        "uid": "0ee4c5ed-2390-4868-86e4-c8ca00ff9e67"
+    },
+    "spec": {
+        "broker": "context-broker",
+        "delivery": {
+            "deadLetterSink": {
+                "ref": {
+                    "apiVersion": "serving.knative.dev/v1",
+                    "kind": "Service",
+                    "name": "dead-letter",
+                    "namespace": "context-cyan"
+                }
+            }
+        },
+        "filter": {},
+        "filters": [
+            {
+                "all": [
+                    {
+                        "exact": {
+                            "type": "org.mindwm.v1.iodocument"
+                        }
+                    },
+                    {
+                        "not": {
+                            "prefix": {
+                                "subject": "#"
+                            }
+                        }
+                    }
+                ]
+            }
+        ],
+        "subscriber": {
+            "ref": {
+                "apiVersion": "serving.knative.dev/v1",
+                "kind": "Service",
+                "name": "iocontext",
+                "namespace": "context-cyan"
+            }
+        }
+    },
+    "status": {
+        "conditions": [
+            {
+                "lastTransitionTime": "2025-05-13T17:37:14Z",
+                "status": "True",
+                "type": "BrokerReady"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "status": "True",
+                "type": "DeadLetterSinkResolved"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "status": "True",
+                "type": "DependencyReady"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "reason": "authentication-oidc feature disabled",
+                "status": "True",
+                "type": "OIDCIdentityCreated"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "message": "Failed to sync physical Channel: Internal error occurred: failed calling webhook \"inmemorychannel.eventing.knative.dev\": failed to call webhook: Post \"https://inmemorychannel-webhook.knative-eventing.svc:443/defaulting?timeout=10s\": no endpoints available for service \"inmemorychannel-webhook\"",
+                "reason": "PhysicalChannelSyncFailed",
+                "status": "False",
+                "type": "Ready"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "status": "True",
+                "type": "SubscriberResolved"
+            },
+            {
+                "lastTransitionTime": "2025-05-13T17:37:55Z",
+                "message": "Failed to sync physical Channel: Internal error occurred: failed calling webhook \"inmemorychannel.eventing.knative.dev\": failed to call webhook: Post \"https://inmemorychannel-webhook.knative-eventing.svc:443/defaulting?timeout=10s\": no endpoints available for service \"inmemorychannel-webhook\"",
+                "reason": "PhysicalChannelSyncFailed",
+                "status": "False",
+                "type": "SubscriptionReady"
+            }
+        ],
+        "deadLetterSinkUri": "http://dead-letter.context-cyan.svc.cluster.local",
+        "observedGeneration": 1,
+        "subscriberUri": "http://iocontext.context-cyan.svc.cluster.local"
+    }
+}
