@@ -1,7 +1,0 @@
-CREATE (n:User {
-  atime: 0,
-  traceparent: '00-7df92f3577b34da6a3ce930d0e0e4734-96815d9e32cd6279-01',
-  type: 'org.mindwm.v1.graph.node.user',
-  username: '<user>'
-})
-RETURN n;

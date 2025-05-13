@@ -1,3 +1,0 @@
-MATCH (n:User)
-SET n.username = 'xxx'
-RETURN n;

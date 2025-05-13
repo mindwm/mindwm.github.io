@@ -1,5 +1,0 @@
-
-                MATCH (n:Host)
-                WHERE n.traceparent CONTAINS "-7df92f3577b34da6a3ce930d0e0e4734-"
-                RETURN n
-            
