@@ -1,0 +1,2 @@
+NAME                    URL                                                                 LATESTCREATED                 LATESTREADY   READY     REASON
+knative-function-test   http://knative-function-test.test-function.172.235.182.135.nip.io   knative-function-test-00001                 Unknown   RevisionMissing
