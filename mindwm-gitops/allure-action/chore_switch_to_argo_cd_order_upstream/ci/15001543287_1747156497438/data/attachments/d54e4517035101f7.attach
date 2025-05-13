@@ -1,0 +1,16 @@
+{
+    "specversion": "1.0",
+    "id": "cb488aca3df94a30867845db2012b496",
+    "source": "org.mindwm.NO_CONTEXT.knfunc.pong",
+    "type": "org.mindwm.v1.pong",
+    "subject": "org.mindwm.shesha.workstation01.L3RtcC90bXV4LTEwMDAvZGVmYXVsdA==.8d839f82-79da-11ef-bc9f-f74fac7543ac.36.23.iodocument",
+    "datacontenttype": "application/json",
+    "data": {
+        "type": "org.mindwm.v1.pong",
+        "uuid": "1094d3ff745f4d049566596cb8c0c4cf"
+    },
+    "knativearrivaltime": "2025-05-13T16:56:43.810378336Z",
+    "knativebrokerttl": "255",
+    "traceparent": "00-c81364a59fbe82d7845ec9d8fe8a57ad-98a105b0fbb074ac-01",
+    "tracestate": ""
+}

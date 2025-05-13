@@ -1,6 +1,7 @@
 {
   "links": [
     "..",
+    "chore_switch_to_argo_cd_order_upstream",
     "master"
   ]
 }
