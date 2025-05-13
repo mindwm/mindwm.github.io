@@ -1,5 +1,29 @@
 [
   {
+    "runId": 14999843024,
+    "runUniqueId": "14999843024_1747148260115",
+    "testResult": "FAIL",
+    "timestamp": 1747148225490,
+    "summary": {
+      "statistic": {
+        "failed": 0,
+        "broken": 1,
+        "skipped": 0,
+        "passed": 0,
+        "unknown": 0,
+        "total": 1
+      },
+      "time": {
+        "start": 1747148225490,
+        "stop": 1747148225512,
+        "duration": 22,
+        "minDuration": 22,
+        "maxDuration": 22,
+        "sumDuration": 22
+      }
+    }
+  },
+  {
     "runId": 14999665111,
     "runUniqueId": "14999665111_1747147811924",
     "testResult": "FAIL",
