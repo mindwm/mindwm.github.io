@@ -1,0 +1,68 @@
+{
+    "apiVersion": "serving.knative.dev/v1",
+    "kind": "Service",
+    "metadata": {
+        "annotations": {
+            "serving.knative.dev/creator": "system:admin",
+            "serving.knative.dev/lastModifier": "system:admin"
+        },
+        "creationTimestamp": "2025-05-13T16:03:17Z",
+        "generation": 1,
+        "managedFields": [
+            {
+                "apiVersion": "serving.knative.dev/v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:spec": {
+                        ".": {},
+                        "f:template": {
+                            ".": {},
+                            "f:spec": {
+                                ".": {},
+                                "f:containers": {}
+                            }
+                        }
+                    }
+                },
+                "manager": "OpenAPI-Generator",
+                "operation": "Update",
+                "time": "2025-05-13T16:03:17Z"
+            }
+        ],
+        "name": "knative-function-test",
+        "namespace": "test-function",
+        "resourceVersion": "14187",
+        "uid": "0b72c1a6-3fbe-4759-bb69-373255df0308"
+    },
+    "spec": {
+        "template": {
+            "metadata": {
+                "creationTimestamp": null
+            },
+            "spec": {
+                "containerConcurrency": 0,
+                "containers": [
+                    {
+                        "image": "zot-int.zot.svc.cluster.local:5000/test3:latest",
+                        "name": "user-container",
+                        "readinessProbe": {
+                            "successThreshold": 1,
+                            "tcpSocket": {
+                                "port": 0
+                            }
+                        },
+                        "resources": {}
+                    }
+                ],
+                "enableServiceLinks": false,
+                "timeoutSeconds": 300
+            }
+        },
+        "traffic": [
+            {
+                "latestRevision": true,
+                "percent": 100
+            }
+        ]
+    }
+}
