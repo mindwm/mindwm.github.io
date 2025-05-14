@@ -1,0 +1,12 @@
+{
+    "Host": "broker-ingress.knative-eventing.svc.cluster.local",
+    "Content-Type": "application/json",
+    "Ce-specversion": "1.0",
+    "Ce-id": "af4f1db1-bf1d-4433-820a-601db4180a96",
+    "ce-id": "355b66b5-ef3c-4f26-9e86-481c5b36d1ce",
+    "ce-specversion": "1.0",
+    "ce-subject": "#ping",
+    "ce-type": "org.mindwm.v1.iodocument",
+    "traceparent": "00-5df92f3577b34da6a3ce929d0e0e4734-00f067aa0ba902b7-00",
+    "ce-source": "org.mindwm.amanda4.pi6-host.L3RtcC90bXV4LTEwMDAvZGVmYXVsdA==.09fb195c-c419-6d62-15e0-51b6ee990922.23.36.iodocument"
+}
