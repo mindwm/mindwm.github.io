@@ -1,0 +1,7 @@
+NAME                           READY   UP-TO-DATE   AVAILABLE   AGE
+clipboard-00001-deployment     0/0     0            0           3m59s
+cyan-node-red                  1/1     1            1           3m56s
+dead-letter-00001-deployment   0/0     0            0           3m58s
+iocontext-00001-deployment     0/0     0            0           3m59s
+kafka-cdc-00001-deployment     0/0     0            0           3m58s
+pong-00001-deployment          0/0     0            0           3m57s
