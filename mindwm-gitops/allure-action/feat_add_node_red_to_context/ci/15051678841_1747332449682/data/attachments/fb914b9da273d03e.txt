@@ -1,0 +1,79 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd90973d9-5c2c-4776-a44a-e614857fe669', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '49f9b7cf-937d-40ee-9d3c-a7935a938b6d', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'd1d812e7-d1ec-446f-bd0a-148101313b07', 'Date': 'Thu, 15 May 2025 18:01:55 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3ea5f37c-052d-43e0-8399-a89e0b572d35', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '49f9b7cf-937d-40ee-9d3c-a7935a938b6d', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'd1d812e7-d1ec-446f-bd0a-148101313b07', 'Date': 'Thu, 15 May 2025 18:01:56 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fb8d232e-41d7-4dc6-9643-0f5033369aaa', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '49f9b7cf-937d-40ee-9d3c-a7935a938b6d', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'd1d812e7-d1ec-446f-bd0a-148101313b07', 'Date': 'Thu, 15 May 2025 18:01:57 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.node-red.v1'
