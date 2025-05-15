@@ -1,0 +1,23 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '8e8b9b68-5957-449e-adb0-340806618872', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'c82730e7-4839-4429-b0c5-c8a5b9758c16', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f6f3935b-e99b-4300-9fcf-3ba4705e16ad', 'Date': 'Thu, 15 May 2025 20:01:14 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a701b1ed-a878-4621-94bd-ed094b6b566e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'c82730e7-4839-4429-b0c5-c8a5b9758c16', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f6f3935b-e99b-4300-9fcf-3ba4705e16ad', 'Date': 'Thu, 15 May 2025 20:01:15 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ce80d947-b9ed-4c06-a8cf-75e448e8f36d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'c82730e7-4839-4429-b0c5-c8a5b9758c16', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f6f3935b-e99b-4300-9fcf-3ba4705e16ad', 'Date': 'Thu, 15 May 2025 20:01:16 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
+ERROR    root:conftest.py:931 Error retrieving VirtualService: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1620c1d7-d67b-4da9-9ea8-2619068f75a9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'c82730e7-4839-4429-b0c5-c8a5b9758c16', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'f6f3935b-e99b-4300-9fcf-3ba4705e16ad', 'Date': 'Thu, 15 May 2025 20:03:47 GMT', 'Content-Length': '288'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"virtualservices.networking.istio.io \"node-red-virtual-service\" not found","reason":"NotFound","details":{"name":"node-red-virtual-service","group":"networking.istio.io","kind":"virtualservices"},"code":404}
