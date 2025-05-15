@@ -1,0 +1,4 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2158a3b7-5252-4cb2-b313-ebda190b555e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '63236129-3a50-47a1-b66e-df7783a32de0', 'X-Kubernetes-Pf-Prioritylevel-Uid': '0959b08a-29a0-4d2b-a010-1c9219b6db6d', 'Date': 'Thu, 15 May 2025 05:14:38 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"clipboard\" not found","reason":"NotFound","details":{"name":"clipboard","group":"serving.knative.dev","kind":"services"},"code":404}
