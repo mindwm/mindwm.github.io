@@ -1,0 +1,15 @@
+Unable to use a TTY - input is not a terminal or the right kind of file
++ argocd login --plaintext --username admin --password uWImVU0w3KPGybo2 localhost:8080
++ argocd app sync mindwm-gitops --assumeYes --timeout 2100 --async
+time="2025-05-15T19:00:59Z" level=fatal msg="rpc error: code = FailedPrecondition desc = another operation is already in progress"
++ : sleep 1
++ argocd app wait mindwm-gitops --health --timeout=300
+time="2025-05-15T19:06:18Z" level=fatal msg="application 'mindwm-gitops' health state has transitioned from Missing to Degraded"
++ continue
++ argocd app sync mindwm-gitops --assumeYes --timeout 2100 --async
++ argocd app wait mindwm-gitops --health --timeout=300
+time="2025-05-15T19:11:21Z" level=fatal msg="rpc error: code = Canceled desc = context canceled"
++ continue
++ argocd app sync mindwm-gitops --assumeYes --timeout 2100 --async
++ argocd app wait mindwm-gitops --health --timeout=300
++ exit 0
