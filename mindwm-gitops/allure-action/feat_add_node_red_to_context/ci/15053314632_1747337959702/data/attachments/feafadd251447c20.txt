@@ -1,0 +1,10 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ef757674-df69-497a-84c0-2c4602f11282', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '2e239c08-1040-408b-996b-da23aa555e86', 'X-Kubernetes-Pf-Prioritylevel-Uid': '23a1f97d-4432-48e1-b571-d467303a5e0e', 'Date': 'Thu, 15 May 2025 19:38:10 GMT', 'Content-Length': '234'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"pong\" not found","reason":"NotFound","details":{"name":"pong","group":"serving.knative.dev","kind":"services"},"code":404}
+
+
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2e440566-09ec-4557-8664-151cf5d5d59e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '2e239c08-1040-408b-996b-da23aa555e86', 'X-Kubernetes-Pf-Prioritylevel-Uid': '23a1f97d-4432-48e1-b571-d467303a5e0e', 'Date': 'Thu, 15 May 2025 19:38:15 GMT', 'Content-Length': '234'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"pong\" not found","reason":"NotFound","details":{"name":"pong","group":"serving.knative.dev","kind":"services"},"code":404}
