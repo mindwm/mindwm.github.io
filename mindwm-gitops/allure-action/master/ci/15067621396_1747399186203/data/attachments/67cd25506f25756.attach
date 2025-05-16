@@ -1,0 +1,1 @@
+"{\n  \"input\": \"id\",\n  \"output\": \"uid=1000(pion) gid=1000(pion) groups=1000(pion),4(adm),100(users),112(tmux),988(docker)\",\n  \"ps1\": \"pion@mindwm-stg1:~/work/dev/mindwm-manager$\",\n  \"type\": \"org.mindwm.v1.iodocument\"\n} "
