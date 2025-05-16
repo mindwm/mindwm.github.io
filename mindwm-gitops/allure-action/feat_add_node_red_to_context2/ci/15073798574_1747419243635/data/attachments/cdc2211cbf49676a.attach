@@ -1,0 +1,12 @@
+{
+    "Host": "broker-ingress.knative-eventing.svc.cluster.local",
+    "Content-Type": "application/json",
+    "Ce-specversion": "1.0",
+    "Ce-id": "faaa0b95-f53e-43f0-aae2-f3c664141122",
+    "ce-id": "00f99620-2afc-4b84-b768-b73a1b8ccd3c",
+    "ce-specversion": "1.0",
+    "ce-subject": "clipboard",
+    "ce-type": "org.mindwm.v1.clipboard",
+    "ce-source": "org.mindwm.flukeman.the-host.clipboard",
+    "traceparent": "00-5df92f3577b34da6a3ce929d0e0e4734-00f067aa0ba902b7-00"
+}
