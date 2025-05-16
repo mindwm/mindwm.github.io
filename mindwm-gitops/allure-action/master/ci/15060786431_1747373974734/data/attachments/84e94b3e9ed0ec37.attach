@@ -1,0 +1,10 @@
+{
+    "Content-Type": "application/json",
+    "Ce-specversion": "1.0",
+    "ce-id": "a680b681-a0d1-4c99-a1a7-2dc12c5cca47",
+    "ce-specversion": "1.0",
+    "ce-subject": "clipboard",
+    "ce-type": "org.mindwm.v1.clipboard",
+    "ce-source": "org.mindwm.flukeman.the-host.clipboard",
+    "traceparent": "00-6ef92f3577b34da6a3ce929d0e0e4734-00f067aa0ba902b7-00"
+}
