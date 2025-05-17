@@ -1,0 +1,17 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '917ee7ad-02d7-43de-8f24-05e30baf5053', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'd92aa1b7-8fe2-44d4-a396-0fcc8d46f3b9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '71cbfef1-d39d-406b-ab33-89d772872620', 'Date': 'Sat, 17 May 2025 04:56:09 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '13b8aef5-3e70-4b8d-a076-ab7a9f17bb61', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'd92aa1b7-8fe2-44d4-a396-0fcc8d46f3b9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '71cbfef1-d39d-406b-ab33-89d772872620', 'Date': 'Sat, 17 May 2025 04:56:10 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
+ERROR    root:conftest.py:931 Error retrieving VirtualService: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7c07d31f-98b5-4b0e-9d02-1160e663cdba', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'd92aa1b7-8fe2-44d4-a396-0fcc8d46f3b9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '71cbfef1-d39d-406b-ab33-89d772872620', 'Date': 'Sat, 17 May 2025 04:58:16 GMT', 'Content-Length': '288'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"virtualservices.networking.istio.io \"node-red-virtual-service\" not found","reason":"NotFound","details":{"name":"node-red-virtual-service","group":"networking.istio.io","kind":"virtualservices"},"code":404}
