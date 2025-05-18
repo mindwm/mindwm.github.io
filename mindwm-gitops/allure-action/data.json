@@ -6,6 +6,7 @@
     "feat_add_node_red_to_context2",
     "feat_bump_neo4j_plugins",
     "fix_knative_tracing_configuration",
+    "fix_tests_node_red_virtual_service",
     "master"
   ]
 }
