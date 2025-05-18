@@ -1,0 +1,245 @@
+Name:         xusers.mindwm.io
+Namespace:    
+Labels:       argocd.argoproj.io/instance=mindwm-gitops
+Annotations:  <none>
+API Version:  apiextensions.k8s.io/v1
+Kind:         CustomResourceDefinition
+Metadata:
+  Creation Timestamp:  2025-05-18T04:56:48Z
+  Generation:          1
+  Owner References:
+    API Version:           apiextensions.crossplane.io/v1
+    Block Owner Deletion:  true
+    Controller:            true
+    Kind:                  CompositeResourceDefinition
+    Name:                  xusers.mindwm.io
+    UID:                   6e801306-9e2b-4b65-a644-486698cba77c
+  Resource Version:        11721
+  UID:                     14332a42-53a1-4273-9f78-eb6e4e93d6bd
+Spec:
+  Conversion:
+    Strategy:  None
+  Group:       mindwm.io
+  Names:
+    Categories:
+      composite
+    Kind:       XUser
+    List Kind:  XUserList
+    Plural:     xusers
+    Singular:   xuser
+  Scope:        Cluster
+  Versions:
+    Additional Printer Columns:
+      Json Path:  .status.conditions[?(@.type=='Synced')].status
+      Name:       SYNCED
+      Type:       string
+      Json Path:  .status.conditions[?(@.type=='Ready')].status
+      Name:       READY
+      Type:       string
+      Json Path:  .spec.compositionRef.name
+      Name:       COMPOSITION
+      Type:       string
+      Json Path:  .spec.compositionRevisionRef.name
+      Name:       COMPOSITIONREVISION
+      Priority:   1
+      Type:       string
+      Json Path:  .metadata.creationTimestamp
+      Name:       AGE
+      Type:       date
+    Name:         v1beta1
+    Schema:
+      openAPIV3Schema:
+        Properties:
+          API Version:
+            Type:  string
+          Kind:
+            Type:  string
+          Metadata:
+            Properties:
+              Name:
+                Max Length:  63
+                Type:        string
+            Type:            object
+          Spec:
+            Properties:
+              Claim Ref:
+                Properties:
+                  API Version:
+                    Type:  string
+                  Kind:
+                    Type:  string
+                  Name:
+                    Type:  string
+                  Namespace:
+                    Type:  string
+                Required:
+                  apiVersion
+                  kind
+                  namespace
+                  name
+                Type:  object
+              Composition Ref:
+                Properties:
+                  Name:
+                    Type:  string
+                Required:
+                  name
+                Type:  object
+              Composition Revision Ref:
+                Properties:
+                  Name:
+                    Type:  string
+                Required:
+                  name
+                Type:  object
+              Composition Revision Selector:
+                Properties:
+                  Match Labels:
+                    Additional Properties:
+                      Type:  string
+                    Type:    object
+                Required:
+                  matchLabels
+                Type:  object
+              Composition Selector:
+                Properties:
+                  Match Labels:
+                    Additional Properties:
+                      Type:  string
+                    Type:    object
+                Required:
+                  matchLabels
+                Type:  object
+              Composition Update Policy:
+                Default:  Automatic
+                Enum:
+                  Automatic
+                  Manual
+                Type:  string
+              Context:
+                Items:
+                  Type:  string
+                Type:    array
+              Name:
+                Type:  string
+              Publish Connection Details To:
+                Properties:
+                  Config Ref:
+                    Default:
+                      Name:  default
+                    Properties:
+                      Name:
+                        Type:  string
+                    Type:      object
+                  Metadata:
+                    Properties:
+                      Annotations:
+                        Additional Properties:
+                          Type:  string
+                        Type:    object
+                      Labels:
+                        Additional Properties:
+                          Type:  string
+                        Type:    object
+                      Type:
+                        Type:  string
+                    Type:      object
+                  Name:
+                    Type:  string
+                Required:
+                  name
+                Type:  object
+              Resource Refs:
+                Items:
+                  Properties:
+                    API Version:
+                      Type:  string
+                    Kind:
+                      Type:  string
+                    Name:
+                      Type:  string
+                  Required:
+                    apiVersion
+                    kind
+                  Type:                        object
+                Type:                          array
+                X - Kubernetes - List - Type:  atomic
+              Write Connection Secret To Ref:
+                Properties:
+                  Name:
+                    Type:  string
+                  Namespace:
+                    Type:  string
+                Required:
+                  name
+                  namespace
+                Type:  object
+            Type:      object
+          Status:
+            Properties:
+              Claim Condition Types:
+                Items:
+                  Type:                        string
+                Type:                          array
+                X - Kubernetes - List - Type:  set
+              Conditions:
+                Description:  Conditions of the resource.
+                Items:
+                  Properties:
+                    Last Transition Time:
+                      Format:  date-time
+                      Type:    string
+                    Message:
+                      Type:  string
+                    Reason:
+                      Type:  string
+                    Status:
+                      Type:  string
+                    Type:
+                      Type:  string
+                  Required:
+                    lastTransitionTime
+                    reason
+                    status
+                    type
+                  Type:  object
+                Type:    array
+                X - Kubernetes - List - Map - Keys:
+                  type
+                X - Kubernetes - List - Type:  map
+              Connection Details:
+                Properties:
+                  Last Published Time:
+                    Format:  date-time
+                    Type:    string
+                Type:        object
+            Type:            object
+        Required:
+          spec
+        Type:  object
+    Served:    true
+    Storage:   true
+    Subresources:
+      Status:
+Status:
+  Accepted Names:
+    Categories:
+      composite
+    Kind:       XUser
+    List Kind:  XUserList
+    Plural:     xusers
+    Singular:   xuser
+  Conditions:
+    Last Transition Time:  2025-05-18T04:56:48Z
+    Message:               no conflicts found
+    Reason:                NoConflicts
+    Status:                True
+    Type:                  NamesAccepted
+    Last Transition Time:  2025-05-18T04:56:48Z
+    Message:               the initial names have been accepted
+    Reason:                InitialNamesAccepted
+    Status:                True
+    Type:                  Established
+  Stored Versions:
+    v1beta1
+Events:  <none>
