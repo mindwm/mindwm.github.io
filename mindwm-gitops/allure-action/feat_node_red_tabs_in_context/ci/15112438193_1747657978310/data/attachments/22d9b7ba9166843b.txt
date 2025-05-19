@@ -1,0 +1,821 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f8273956-3228-49cc-b888-56fcb22b3093', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:27:12 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4a5d84a4-9187-4b74-8330-03da9871da40', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:27:13 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1cfcf398-0407-4a4e-a452-ec18508d6c22', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:27:14 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7410e134-d44e-4c65-a747-7aff0a7708cd', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:27:15 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cb14bef8-7900-4a81-bc77-0798ebf61fe1', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:09 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f1f3db14-31ab-42b9-870f-b457c26a72d6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:10 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '03137796-4b2e-4df6-8407-ce87a1a23705', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:11 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7604deda-7bf9-40af-bcd5-05299799c24a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:12 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a60111cb-7e59-49b2-ba67-b4b060f99232', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:13 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2fdfd0bb-58be-409d-b7db-d8cb455b8913', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:14 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'aaedc63c-df95-4526-8701-e5d5399d3ef1', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:15 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '64f39723-523e-463f-bee3-6c2d5508d220', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:16 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '52101061-7f88-4335-8528-ef423326fc98', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:17 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5829e80d-202a-4fb0-9f05-6f18152b893f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:18 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd5b8ac53-cefc-4885-a4d2-a75fc75a0fb6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:19 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '322e032f-0d9e-4d9f-ae12-d65b0387ea59', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:20 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6548bcfc-c116-4349-a68d-b5f552229db3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:21 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ed8b3053-5f60-49d2-a3aa-ef86d75b43fe', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:22 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '95982d52-1b93-4428-9eee-813130862aa5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:23 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ee84c44c-f1f4-4945-a390-8d21ea7dce29', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:24 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'beec7c18-a8f2-4a08-97e3-f1c78c70c434', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:25 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '25b03300-4794-4c62-ad06-9c2a19cd2a0b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:26 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7863635f-a289-4197-9c27-6796e838c247', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:27 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c3faa0b7-3176-4044-9b43-4f80976d72c5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:28 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f0d54a70-35bb-4758-a7d7-39114b5341d7', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:29 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '072fc720-1ce8-4735-b0d2-070f5424391e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:30 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1459ad01-85e1-4374-9e6f-14c137a1dba0', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:31 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fc6fd7fc-8686-4e5f-80ca-5e3787df7a1e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:32 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '94f657ae-ba62-4119-a6ca-67c4033b967e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:33 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '519e6e1a-02ac-4c3d-8f48-d36f324fa597', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:34 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b609c5be-2cfd-4b02-9a97-6d02ff69a460', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:35 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '78d5700e-8d5b-493e-87ef-ece465039211', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:36 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '405aa250-395c-48ee-9ec7-b68dd1cf96a6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:37 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ae255d06-96da-4ccb-bea8-e8ac7abdeabd', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:38 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a7d9af21-9c8d-42c2-b6c2-088d053db885', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:39 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b6e49086-b1f5-49c5-b4b8-9cb1bdfad1f6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:40 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '67afc719-af73-4947-a28f-5da21a1dba23', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:41 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a5b5a3fa-a58d-4564-834d-f1aa5c27d394', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:42 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4c300d9e-2630-400e-82b9-6c26664bd269', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:43 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'e4fae9ce-5ba4-49ef-88ef-fde1c20cd1a5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:44 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b31fec8a-1f97-4e7e-b678-51be4a94eda7', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:45 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a273d867-4e1f-475e-8146-8df39a57bcdf', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:46 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '584aaffd-49d5-4c29-97bb-1e293c036a39', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:47 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd617892a-be92-463d-806a-413907b5f3c9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:48 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1608433e-2c39-4ab0-b4dc-cca6708bb51c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:49 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3e020239-5e80-4f01-82a5-409b3438c926', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:50 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '542240e7-8b76-4ad1-8651-d52b508a6ca1', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:51 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '93ccaa54-a889-46f5-987c-9a255c8ca12a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:52 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '425f8adf-7eb5-485c-aa55-fcd7b940513d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:53 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c8de4fdc-12da-49ba-b932-0b3dbe86f0cc', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:54 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fc434e1c-b71c-496a-bbea-25441c11c27c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:55 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1349568e-91b8-4b9e-8456-e4c7b011fada', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:56 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '74b5c122-b875-4947-96c6-270345bc9b9c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:57 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4ca3cf7a-305b-4971-9c42-0589722ecdb4', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:58 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '90487fb6-9533-4d8e-b35d-f6d35ef20010', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:30:59 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '564618d1-e728-44d7-91ab-5acda454e461', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:00 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f95eaf21-bfbb-4a15-b8f7-f3d96c1a2463', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:01 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '338d3d6d-f630-4b50-94a7-851013aef068', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:02 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '61ba0c24-da02-4a1a-bbb8-ca7e0fbbef33', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:03 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '89c8f003-c59c-4a33-abd2-f283284a2658', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:04 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ade30a94-2eaa-4d79-b1fc-1c8a33f6a3e4', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:05 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'aa7421de-c397-4986-8274-802ed55183b4', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:06 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fef3cce2-b93c-4a42-9680-440248c1775a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:07 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c5b17571-9e01-4bca-913c-f6b1130dea97', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:08 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a2c7487e-6b00-4a0f-b46c-e12cce377873', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:09 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '0adf299d-4748-41ad-ad6c-a0f2b9d59110', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:10 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3fe16c63-fe1a-4dd1-98d7-8d7464ef2572', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:11 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '495865a0-47b4-41f8-b40f-63da247b971d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:12 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7ba23fea-793f-4129-ae78-b79a3b96b217', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:13 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '739d5f58-6d44-4dcb-a3bf-0ae98996b4e3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:14 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '22b162dd-abcf-4e15-8066-67be337e0731', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:15 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '756ed819-eef5-47ac-94a5-e4dbf34be6ec', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:16 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '15f06f74-9ef9-4ab1-9761-6d275db830a5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:17 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4b523e50-0a88-487b-90ca-b895dbf9b54f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:18 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2b572400-9546-481a-affb-fb3be4c932c6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:19 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f74e00b7-9839-49e5-a8e7-48a5aafb9e0b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:20 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6ee82202-1f34-4134-bc2c-d6fc800e72e3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:21 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '797cf1fc-0382-4874-a54c-c2d9e4ef95a7', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:22 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '0dfa2593-771a-4d4c-9506-abaec54ec137', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:23 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '92753950-d184-41f0-8620-709f6b7fb60f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:24 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1221fa3c-4502-4281-8ad0-51320d55774c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:25 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b7020e65-0de2-4f8e-b608-651c3c0e3fa1', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:26 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cbe809cf-d1a4-4c7b-a1a1-d7f76b675723', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:27 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '505e9fc3-adf0-49ae-8eaa-f3428fd8ed4b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:28 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '859c838b-e775-4f4c-a03d-097f20859f31', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:29 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '17f1e978-2a18-4454-9e21-a32aa794a13d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:30 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd75f9734-20a1-481e-b983-d02952dd050d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:31 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '8b948240-ed66-4b22-bfb1-b4e8296ab0e2', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:32 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4fbc919c-643f-4513-8eba-1d2a389afde8', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:33 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5a906855-966e-4873-ad80-8d57fab2bdbf', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:34 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '917bdf78-6ac7-4bae-b74b-b494da50e293', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:35 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '649d0554-e015-4880-84df-2ffc8487ebff', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:36 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4a9d2840-b3a8-40fb-b51e-2bbc7f579133', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:37 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9d9c1be7-6167-4f6c-971b-0255b052cb32', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:38 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5bf2efce-53f2-4239-b4fe-ef637c52366e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:39 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f1d60641-aaed-4bc6-bdaa-bd660c6f8b3e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:40 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4bb92924-9b21-4425-8480-bdd16a6d9ba4', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:41 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b025dc7a-c892-4aab-bdd9-0574ef68cfe6', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:42 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '66bb936c-802d-40d7-8ee2-5f5fbc32007c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:43 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3dabf3d0-ce70-41f1-a37e-ff99d02efb0a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:44 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '115ee485-f07e-475c-87c8-e6c9779faa21', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:45 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6f29aa37-e8ce-4a2f-8869-75bee6ff5b98', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:46 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '4905750c-22f9-4eb3-b948-25eba31e205b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:47 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'efc49cd7-8e09-44eb-880b-ded4a21cd1a9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:48 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'e087c06b-9084-4598-954e-0764398bf34a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:49 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f42c4af4-16b4-4878-9b35-c1b8ad97280e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:50 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'e156db90-62df-4d3c-9c61-2c71c1cf98bc', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:51 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'dba0edf8-965a-474d-aba2-bab978ae8427', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:52 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '23d349f5-98d2-460f-aace-746f85e78bee', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:53 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '17f97802-7901-4c87-a22e-64da9db5b821', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:54 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2d5859f9-3fea-4346-882d-d97c4c03855b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:55 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'bf275d2a-2835-40b4-a60c-e8263a8424d9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:56 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '70b98bb8-513b-4a97-86b7-61b1e894f2de', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:57 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '58c7872e-dd48-4d59-9850-b4a4605d671c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:58 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2d1d82f0-957b-44a6-9702-e332c35c2de3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:31:59 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6e391c2e-2425-480a-94c3-3848adfcb505', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:00 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'e30baeeb-c73d-48e7-8d90-46b364e23b81', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:01 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5d90d33f-3f92-4206-b87c-de9d992c24d4', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:02 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '896ce8ad-934c-4f01-a4ee-1a220b9e9f28', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:03 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'd65a9825-e09c-491e-ace8-53eb3eb9e3fa', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:04 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a5cf8646-d824-4bff-9128-def6bd5604b9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:05 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '281461fc-e6eb-410c-9980-7cef2055d55e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:06 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '3ad171e6-6442-4a14-a293-145fa33681b5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:07 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f43bd3a9-7994-419a-bd9d-2a64479435cb', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:08 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '759ab6bf-d3de-4664-b71d-aec981dbaa1c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:09 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cc2fe71a-4e48-4ac2-9e2b-ed6af5d6085b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:10 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ad5c6825-864c-4e6c-87ec-c73163d77d12', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:11 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '6f5b8e89-493f-4bc1-a9c9-a4e4d9f400b9', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:12 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '10f30f20-e656-4bd1-bc08-7dbdb18b8e6c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:13 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5dec7631-14f4-4237-8d86-8392eed5ee28', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:14 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '77861909-b273-4cd8-af43-1a2df1e4233e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:15 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f7265a8c-eef3-411b-9631-38613facbd9b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:16 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '0ea13f25-7f27-4d49-8d4d-610bbac5f434', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:17 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5bafeb36-aa64-408c-a836-6f5fe0124ba5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:18 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cd47bc3d-a9bf-421c-95da-d03b9e123b6a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:19 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'ea78f291-6abc-4e27-8755-ef7cb68ab7cb', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:20 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'acf28014-a130-4262-8052-818663908e3c', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6de7083c-7977-4573-be7f-221da5753dae', 'X-Kubernetes-Pf-Prioritylevel-Uid': '622925b9-c727-45c0-b22b-594bbb519dac', 'Date': 'Mon, 19 May 2025 12:32:21 GMT', 'Content-Length': '224'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"statefulsets.apps \"cyan-neo4j\" not found","reason":"NotFound","details":{"name":"cyan-neo4j","group":"apps","kind":"statefulsets"},"code":404}
