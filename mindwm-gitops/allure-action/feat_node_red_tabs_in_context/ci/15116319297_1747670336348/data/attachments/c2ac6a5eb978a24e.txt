@@ -1,0 +1,10 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '08c70092-9518-4afe-8497-bbff4365eec8', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '0ef1f608-379f-45fc-a2fa-a9461009962d', 'X-Kubernetes-Pf-Prioritylevel-Uid': '50820b89-a58a-4faa-a8e6-7755005ff217', 'Date': 'Mon, 19 May 2025 15:26:08 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"kafka-cdc\" not found","reason":"NotFound","details":{"name":"kafka-cdc","group":"serving.knative.dev","kind":"services"},"code":404}
+
+
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '9a15b7aa-61c8-41c0-86aa-d8ecd7b10f18', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '0ef1f608-379f-45fc-a2fa-a9461009962d', 'X-Kubernetes-Pf-Prioritylevel-Uid': '50820b89-a58a-4faa-a8e6-7755005ff217', 'Date': 'Mon, 19 May 2025 15:26:13 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"kafka-cdc\" not found","reason":"NotFound","details":{"name":"kafka-cdc","group":"serving.knative.dev","kind":"services"},"code":404}
