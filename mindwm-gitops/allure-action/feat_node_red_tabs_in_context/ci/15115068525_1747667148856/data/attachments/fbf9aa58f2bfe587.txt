@@ -1,0 +1,10 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '806e4cd6-c8db-4b47-b41f-7931396893b0', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:37:19 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"clipboard\" not found","reason":"NotFound","details":{"name":"clipboard","group":"serving.knative.dev","kind":"services"},"code":404}
+
+
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '832d3a68-f1d1-45b4-88fb-5461ef7d4bcd', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:37:24 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"clipboard\" not found","reason":"NotFound","details":{"name":"clipboard","group":"serving.knative.dev","kind":"services"},"code":404}

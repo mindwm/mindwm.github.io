@@ -1,0 +1,10 @@
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '672c0cd2-3298-4e4d-a69a-a84ff4496b07', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:29:23 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"iocontext\" not found","reason":"NotFound","details":{"name":"iocontext","group":"serving.knative.dev","kind":"services"},"code":404}
+
+
+ERROR    utils:utils.py:154 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '32fb1240-a9e3-4577-8800-b1bbf55fbbff', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:29:28 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"iocontext\" not found","reason":"NotFound","details":{"name":"iocontext","group":"serving.knative.dev","kind":"services"},"code":404}

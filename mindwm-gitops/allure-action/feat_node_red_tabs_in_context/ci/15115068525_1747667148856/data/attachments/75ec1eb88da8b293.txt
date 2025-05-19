@@ -1,0 +1,28 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '43e3c07a-2bdc-478e-8a18-bb299f0bc56f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:55:50 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2ed74d93-2949-4f11-b04d-49470326da21', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:55:51 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'f8cc743c-4a75-416b-81e1-a3b5fb62154f', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:55:52 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fb95f0a2-a366-4776-9449-19e7c60d920e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:55:53 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '85af21d4-2847-45ed-a053-70902bc437ca', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '03fbb1d8-38c8-41a2-893f-c9eae4c804e2', 'X-Kubernetes-Pf-Prioritylevel-Uid': '44e777b5-d0e5-4b0d-ae63-b53928e7a6a7', 'Date': 'Mon, 19 May 2025 14:55:54 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
