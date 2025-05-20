@@ -1,5 +1,5 @@
-<svg width="237.2" height="20" viewBox="0 0 2372 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Allure report: 74 Total/73 Passed/ Failed">
-  <title>Allure report: 74 Total/73 Passed/ Failed</title>
+<svg width="237.2" height="20" viewBox="0 0 2372 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Allure report: 79 Total/79 Passed/ Failed">
+  <title>Allure report: 79 Total/79 Passed/ Failed</title>
   <linearGradient id="a" x2="0" y2="100%">
     <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
     <stop offset="1" stop-opacity=".1"/>
@@ -13,8 +13,8 @@
   <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
     <text x="60" y="148" textLength="696" fill="#000" opacity="0.25">Allure report</text>
     <text x="50" y="138" textLength="696">Allure report</text>
-    <text x="851" y="148" textLength="1476" fill="#000" opacity="0.25">74 Total/73 Passed/ Failed</text>
-    <text x="841" y="138" textLength="1476">74 Total/73 Passed/ Failed</text>
+    <text x="851" y="148" textLength="1476" fill="#000" opacity="0.25">79 Total/79 Passed/ Failed</text>
+    <text x="841" y="138" textLength="1476">79 Total/79 Passed/ Failed</text>
   </g>
   
   <linearGradient id="x" x1="0%" y1="0%" x2="100%" y2="0%">
