@@ -1,0 +1,352 @@
+google-22: Pulling from buildpacks/builder
+e1a89dea01a6: Pulling fs layer
+1d75acd67b98: Pulling fs layer
+7722f281429c: Pulling fs layer
+0005eda83172: Pulling fs layer
+182afb1fe5dc: Pulling fs layer
+1a82443b3661: Pulling fs layer
+96fc089b2e8a: Pulling fs layer
+93062e971f53: Pulling fs layer
+352fda92b74e: Pulling fs layer
+fb6b021eb60e: Pulling fs layer
+102d9c412fdc: Pulling fs layer
+3cf65320adbc: Pulling fs layer
+4450e4f8b8ba: Pulling fs layer
+baf4e69af2e1: Pulling fs layer
+1c6074c08cfa: Pulling fs layer
+19fd0e7ea285: Pulling fs layer
+54da8e271117: Pulling fs layer
+b3e87017abae: Pulling fs layer
+58284057e6b9: Pulling fs layer
+8159e98d550e: Pulling fs layer
+8d2effe99a5f: Pulling fs layer
+e8e4c9f6846d: Pulling fs layer
+6f2ffae5495d: Pulling fs layer
+130bbfa9a515: Pulling fs layer
+47db7f04116e: Pulling fs layer
+b44cebfbf60f: Pulling fs layer
+191a3f1ce0fb: Pulling fs layer
+5150602947f7: Pulling fs layer
+c0d3796ba0a3: Pulling fs layer
+1b5a46ee8565: Pulling fs layer
+e8cf3bcd3411: Pulling fs layer
+39886208cde0: Pulling fs layer
+9752be9e0dbe: Pulling fs layer
+5c6b2bc1ea57: Pulling fs layer
+ba762a9c2bc7: Pulling fs layer
+603c2daa3ae9: Pulling fs layer
+1a68cad34736: Pulling fs layer
+ab24f270c301: Pulling fs layer
+1d8676d1df9f: Pulling fs layer
+e9456a3a89d9: Pulling fs layer
+b945d3b0b07a: Pulling fs layer
+ab435ac499b4: Pulling fs layer
+c1429c8af8cb: Pulling fs layer
+d693999f2a25: Pulling fs layer
+15c728d663b7: Pulling fs layer
+ede6eb85d0ea: Pulling fs layer
+1875f662859b: Pulling fs layer
+3e894c6156d1: Pulling fs layer
+ba69a603979a: Pulling fs layer
+b57b4e5404ed: Pulling fs layer
+6b5ecf0c998a: Pulling fs layer
+5420f5a5932b: Pulling fs layer
+6d0dbaaec8a4: Pulling fs layer
+30696ee89d57: Pulling fs layer
+f8cd74e3f454: Pulling fs layer
+327a7c843995: Pulling fs layer
+8c93a4dc9691: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+0005eda83172: Waiting
+182afb1fe5dc: Waiting
+1a82443b3661: Waiting
+96fc089b2e8a: Waiting
+93062e971f53: Waiting
+352fda92b74e: Waiting
+fb6b021eb60e: Waiting
+102d9c412fdc: Waiting
+3cf65320adbc: Waiting
+4450e4f8b8ba: Waiting
+baf4e69af2e1: Waiting
+1c6074c08cfa: Waiting
+19fd0e7ea285: Waiting
+54da8e271117: Waiting
+b3e87017abae: Waiting
+58284057e6b9: Waiting
+8159e98d550e: Waiting
+8d2effe99a5f: Waiting
+e8e4c9f6846d: Waiting
+6f2ffae5495d: Waiting
+130bbfa9a515: Waiting
+47db7f04116e: Waiting
+b44cebfbf60f: Waiting
+191a3f1ce0fb: Waiting
+5150602947f7: Waiting
+c0d3796ba0a3: Waiting
+1b5a46ee8565: Waiting
+e8cf3bcd3411: Waiting
+39886208cde0: Waiting
+9752be9e0dbe: Waiting
+5c6b2bc1ea57: Waiting
+ba762a9c2bc7: Waiting
+603c2daa3ae9: Waiting
+1a68cad34736: Waiting
+ab24f270c301: Waiting
+1d8676d1df9f: Waiting
+e9456a3a89d9: Waiting
+ab435ac499b4: Waiting
+d693999f2a25: Waiting
+15c728d663b7: Waiting
+ede6eb85d0ea: Waiting
+1875f662859b: Waiting
+3e894c6156d1: Waiting
+ba69a603979a: Waiting
+b57b4e5404ed: Waiting
+6b5ecf0c998a: Waiting
+5420f5a5932b: Waiting
+6d0dbaaec8a4: Waiting
+30696ee89d57: Waiting
+f8cd74e3f454: Waiting
+327a7c843995: Waiting
+c1429c8af8cb: Waiting
+8c93a4dc9691: Waiting
+4f4fb700ef54: Waiting
+1d75acd67b98: Verifying Checksum
+1d75acd67b98: Download complete
+e1a89dea01a6: Verifying Checksum
+e1a89dea01a6: Download complete
+0005eda83172: Download complete
+182afb1fe5dc: Download complete
+96fc089b2e8a: Verifying Checksum
+96fc089b2e8a: Download complete
+1a82443b3661: Download complete
+7722f281429c: Verifying Checksum
+7722f281429c: Download complete
+e1a89dea01a6: Pull complete
+1d75acd67b98: Pull complete
+93062e971f53: Verifying Checksum
+93062e971f53: Download complete
+352fda92b74e: Verifying Checksum
+352fda92b74e: Download complete
+fb6b021eb60e: Verifying Checksum
+fb6b021eb60e: Download complete
+102d9c412fdc: Verifying Checksum
+102d9c412fdc: Download complete
+3cf65320adbc: Verifying Checksum
+3cf65320adbc: Download complete
+4450e4f8b8ba: Verifying Checksum
+4450e4f8b8ba: Download complete
+baf4e69af2e1: Verifying Checksum
+baf4e69af2e1: Download complete
+19fd0e7ea285: Verifying Checksum
+19fd0e7ea285: Download complete
+1c6074c08cfa: Verifying Checksum
+1c6074c08cfa: Download complete
+54da8e271117: Verifying Checksum
+54da8e271117: Download complete
+7722f281429c: Pull complete
+b3e87017abae: Verifying Checksum
+b3e87017abae: Download complete
+0005eda83172: Pull complete
+182afb1fe5dc: Pull complete
+1a82443b3661: Pull complete
+96fc089b2e8a: Pull complete
+93062e971f53: Pull complete
+58284057e6b9: Verifying Checksum
+58284057e6b9: Download complete
+352fda92b74e: Pull complete
+8159e98d550e: Verifying Checksum
+8159e98d550e: Download complete
+fb6b021eb60e: Pull complete
+102d9c412fdc: Pull complete
+3cf65320adbc: Pull complete
+4450e4f8b8ba: Pull complete
+baf4e69af2e1: Pull complete
+1c6074c08cfa: Pull complete
+19fd0e7ea285: Pull complete
+54da8e271117: Pull complete
+b3e87017abae: Pull complete
+58284057e6b9: Pull complete
+8159e98d550e: Pull complete
+8d2effe99a5f: Verifying Checksum
+8d2effe99a5f: Download complete
+8d2effe99a5f: Pull complete
+6f2ffae5495d: Verifying Checksum
+6f2ffae5495d: Download complete
+e8e4c9f6846d: Verifying Checksum
+e8e4c9f6846d: Download complete
+e8e4c9f6846d: Pull complete
+6f2ffae5495d: Pull complete
+130bbfa9a515: Verifying Checksum
+130bbfa9a515: Download complete
+130bbfa9a515: Pull complete
+b44cebfbf60f: Verifying Checksum
+b44cebfbf60f: Download complete
+47db7f04116e: Verifying Checksum
+47db7f04116e: Download complete
+47db7f04116e: Pull complete
+b44cebfbf60f: Pull complete
+5150602947f7: Verifying Checksum
+5150602947f7: Download complete
+191a3f1ce0fb: Verifying Checksum
+191a3f1ce0fb: Download complete
+191a3f1ce0fb: Pull complete
+5150602947f7: Pull complete
+c0d3796ba0a3: Verifying Checksum
+c0d3796ba0a3: Download complete
+c0d3796ba0a3: Pull complete
+e8cf3bcd3411: Verifying Checksum
+e8cf3bcd3411: Download complete
+39886208cde0: Verifying Checksum
+39886208cde0: Download complete
+1b5a46ee8565: Verifying Checksum
+1b5a46ee8565: Download complete
+1b5a46ee8565: Pull complete
+e8cf3bcd3411: Pull complete
+39886208cde0: Pull complete
+5c6b2bc1ea57: Download complete
+ba762a9c2bc7: Download complete
+9752be9e0dbe: Verifying Checksum
+9752be9e0dbe: Download complete
+9752be9e0dbe: Pull complete
+5c6b2bc1ea57: Pull complete
+ba762a9c2bc7: Pull complete
+603c2daa3ae9: Verifying Checksum
+603c2daa3ae9: Download complete
+1a68cad34736: Verifying Checksum
+1a68cad34736: Download complete
+603c2daa3ae9: Pull complete
+1a68cad34736: Pull complete
+ab24f270c301: Verifying Checksum
+ab24f270c301: Download complete
+ab24f270c301: Pull complete
+1d8676d1df9f: Verifying Checksum
+1d8676d1df9f: Download complete
+1d8676d1df9f: Pull complete
+e9456a3a89d9: Verifying Checksum
+e9456a3a89d9: Download complete
+e9456a3a89d9: Pull complete
+b945d3b0b07a: Verifying Checksum
+b945d3b0b07a: Download complete
+b945d3b0b07a: Pull complete
+d693999f2a25: Verifying Checksum
+d693999f2a25: Download complete
+ab435ac499b4: Verifying Checksum
+ab435ac499b4: Download complete
+ab435ac499b4: Pull complete
+c1429c8af8cb: Verifying Checksum
+c1429c8af8cb: Download complete
+c1429c8af8cb: Pull complete
+d693999f2a25: Pull complete
+15c728d663b7: Verifying Checksum
+15c728d663b7: Pull complete
+1875f662859b: Verifying Checksum
+1875f662859b: Download complete
+ede6eb85d0ea: Verifying Checksum
+ede6eb85d0ea: Download complete
+3e894c6156d1: Verifying Checksum
+3e894c6156d1: Download complete
+ede6eb85d0ea: Pull complete
+1875f662859b: Pull complete
+3e894c6156d1: Pull complete
+ba69a603979a: Verifying Checksum
+ba69a603979a: Download complete
+ba69a603979a: Pull complete
+b57b4e5404ed: Verifying Checksum
+b57b4e5404ed: Download complete
+5420f5a5932b: Verifying Checksum
+5420f5a5932b: Download complete
+b57b4e5404ed: Pull complete
+6b5ecf0c998a: Verifying Checksum
+6b5ecf0c998a: Download complete
+6b5ecf0c998a: Pull complete
+5420f5a5932b: Pull complete
+f8cd74e3f454: Verifying Checksum
+f8cd74e3f454: Download complete
+6d0dbaaec8a4: Verifying Checksum
+6d0dbaaec8a4: Download complete
+6d0dbaaec8a4: Pull complete
+327a7c843995: Verifying Checksum
+327a7c843995: Download complete
+8c93a4dc9691: Verifying Checksum
+8c93a4dc9691: Download complete
+30696ee89d57: Verifying Checksum
+30696ee89d57: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+30696ee89d57: Pull complete
+f8cd74e3f454: Pull complete
+327a7c843995: Pull complete
+8c93a4dc9691: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:c564ac797359005eb02393b4b897bccbe82fa511f8eeea39c0ac2c5d27272f51
+Status: Downloaded newer image for gcr.io/buildpacks/builder:google-22
+Warning: PACK_VOLUME_KEY is unset; set this environment variable to a secret value to avoid creating a new volume cache on every build
+===> ANALYZING
+Image with name "zot-int.zot.svc.cluster.local:5000/test3:latest" not found
+===> DETECTING
+target distro name/version labels not found, reading /etc/os-release file
+google.python.runtime    0.9.1
+google.python.pip        0.9.2
+google.config.entrypoint 0.9.0
+google.utils.label-image 0.0.2
+===> RESTORING
+===> BUILDING
+target distro name/version labels not found, reading /etc/os-release file
+=== Python - Runtime (google.python.runtime@0.9.1) ===
+layers path: /layers/google.python.runtime/python
+Python version not specified, using the latest available version.
+2025/05/21 20:04:46 [DEBUG] GET https://dl.google.com/runtimes/ubuntu2204/python/version.json
+Installing Python v3.13.3.
+2025/05/21 20:04:47 [DEBUG] GET https://dl.google.com/runtimes/ubuntu2204/python/python-3.13.3.tar.gz
+=== Python - Pip (google.python.pip@0.9.2) ===
+***** CACHE MISS: "pip"
+Installing application dependencies.
+Setting environment variable PYTHONUSERBASE=/layers/google.python.pip/pip
+--------------------------------------------------------------------------------
+Running "python3 -m pip install --requirement requirements.txt --upgrade --upgrade-strategy only-if-needed --no-warn-script-location --no-warn-conflicts --force-reinstall --no-compile --disable-pip-version-check --no-cache-dir --user"
+Collecting parliament-functions==0.1.0 (from -r requirements.txt (line 1))
+  Downloading parliament_functions-0.1.0-py3-none-any.whl.metadata (952 bytes)
+Collecting cloudevents (from parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading cloudevents-1.11.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting flask (from parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading flask-3.1.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting waitress (from parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading waitress-3.0.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting deprecation<3.0,>=2.0 (from cloudevents->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl.metadata (4.6 kB)
+Collecting blinker>=1.9.0 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting click>=8.1.3 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting itsdangerous>=2.2.0 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting jinja2>=3.1.2 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting markupsafe>=2.1.1 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting werkzeug>=3.1.0 (from flask->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting packaging (from deprecation<3.0,>=2.0->cloudevents->parliament-functions==0.1.0->-r requirements.txt (line 1))
+  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading parliament_functions-0.1.0-py3-none-any.whl (5.7 kB)
+Downloading cloudevents-1.11.0-py3-none-any.whl (55 kB)
+Downloading flask-3.1.1-py3-none-any.whl (103 kB)
+Downloading waitress-3.0.2-py3-none-any.whl (56 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading click-8.2.1-py3-none-any.whl (102 kB)
+Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Downloading packaging-25.0-py3-none-any.whl (66 kB)
+Installing collected packages: waitress, packaging, markupsafe, itsdangerous, click, blinker, werkzeug, jinja2, deprecation, flask, cloudevents, parliament-functions
+Successfully installed blinker-1.9.0 click-8.2.1 cloudevents-1.11.0 deprecation-2.1.0 flask-3.1.1 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.2 packaging-25.0 parliament-functions-0.1.0 waitress-3.0.2 werkzeug-3.1.3
+Done "python3 -m pip install --requirement requirements.txt --upgr..." (2.252752825s)
+--------------------------------------------------------------------------------
+Running "python3 -m compileall --invalidation-mode unchecked-hash -qq /layers/google.python.pip/pip"
+Done "python3 -m compileall --invalidation-mode unchecked-hash -qq..." (526.299621ms)
+Checking for incompatible dependencies.
+--------------------------------------------------------------------------------
+Running "python3 -m pip check"

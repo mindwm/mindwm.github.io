@@ -1,0 +1,374 @@
+{
+    "apiVersion": "tekton.dev/v1",
+    "kind": "PipelineRun",
+    "metadata": {
+        "creationTimestamp": "2025-05-21T20:03:25Z",
+        "generation": 1,
+        "labels": {
+            "tekton.dev/pipeline": "mindwm-function-build-run"
+        },
+        "managedFields": [
+            {
+                "apiVersion": "tekton.dev/v1beta1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:spec": {
+                        ".": {},
+                        "f:pipelineSpec": {
+                            ".": {},
+                            "f:tasks": {},
+                            "f:workspaces": {}
+                        },
+                        "f:workspaces": {}
+                    }
+                },
+                "manager": "OpenAPI-Generator",
+                "operation": "Update",
+                "time": "2025-05-21T20:03:25Z"
+            },
+            {
+                "apiVersion": "tekton.dev/v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:labels": {
+                            ".": {},
+                            "f:tekton.dev/pipeline": {}
+                        }
+                    }
+                },
+                "manager": "controller",
+                "operation": "Update",
+                "time": "2025-05-21T20:03:26Z"
+            },
+            {
+                "apiVersion": "tekton.dev/v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:status": {
+                        "f:childReferences": {},
+                        "f:conditions": {},
+                        "f:pipelineSpec": {
+                            ".": {},
+                            "f:tasks": {},
+                            "f:workspaces": {}
+                        },
+                        "f:provenance": {
+                            ".": {},
+                            "f:featureFlags": {
+                                ".": {},
+                                "f:awaitSidecarReadiness": {},
+                                "f:coschedule": {},
+                                "f:enableAPIFields": {},
+                                "f:enableProvenanceInStatus": {},
+                                "f:enforceNonfalsifiability": {},
+                                "f:maxResultSize": {},
+                                "f:resultExtractionMethod": {},
+                                "f:runningInEnvWithInjectedSidecars": {},
+                                "f:verificationNoMatchPolicy": {}
+                            }
+                        },
+                        "f:startTime": {}
+                    }
+                },
+                "manager": "controller",
+                "operation": "Update",
+                "subresource": "status",
+                "time": "2025-05-21T20:04:19Z"
+            }
+        ],
+        "name": "mindwm-function-build-run",
+        "namespace": "test-function",
+        "resourceVersion": "14620",
+        "uid": "90f0fb99-86df-4d7f-850a-36143edc238f"
+    },
+    "spec": {
+        "pipelineSpec": {
+            "tasks": [
+                {
+                    "name": "copy",
+                    "taskSpec": {
+                        "metadata": {},
+                        "spec": null,
+                        "steps": [
+                            {
+                                "computeResources": {},
+                                "image": "busybox",
+                                "name": "copy-app-files",
+                                "script": "#!/bin/sh\ncp -vLr /workspace/source/* /workspace/build\n"
+                            }
+                        ]
+                    },
+                    "workspaces": [
+                        {
+                            "name": "source",
+                            "workspace": "source"
+                        },
+                        {
+                            "name": "build",
+                            "workspace": "build"
+                        }
+                    ]
+                },
+                {
+                    "name": "buildpack",
+                    "params": [
+                        {
+                            "name": "REGISTRY_ENDPOINT",
+                            "value": "zot-int.zot.svc.cluster.local:5000"
+                        }
+                    ],
+                    "taskSpec": {
+                        "metadata": {},
+                        "spec": null,
+                        "steps": [
+                            {
+                                "command": [
+                                    "pack",
+                                    "build",
+                                    "$(params.REGISTRY_ENDPOINT)/test3:latest",
+                                    "--builder",
+                                    "gcr.io/buildpacks/builder:google-22",
+                                    "--workspace",
+                                    "/workspace/build",
+                                    "--docker-host=inherit",
+                                    "--publish"
+                                ],
+                                "computeResources": {},
+                                "env": [
+                                    {
+                                        "name": "CNB_INSECURE_REGISTRIES",
+                                        "value": "zot-int.zot:5000;zot.zot.svc.cluster.local:5000"
+                                    }
+                                ],
+                                "image": "buildpacksio/pack:latest",
+                                "name": "pack-build",
+                                "securityContext": {
+                                    "allowPrivilegeEscalation": true,
+                                    "capabilities": {
+                                        "add": [
+                                            "ALL"
+                                        ]
+                                    },
+                                    "privileged": true,
+                                    "runAsGroup": 0,
+                                    "runAsUser": 0
+                                },
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/var/run/docker.sock",
+                                        "name": "docker-socket"
+                                    }
+                                ],
+                                "workingDir": "/workspace/build"
+                            }
+                        ],
+                        "volumes": [
+                            {
+                                "hostPath": {
+                                    "path": "/var/run/docker.sock",
+                                    "type": "Socket"
+                                },
+                                "name": "docker-socket"
+                            }
+                        ]
+                    },
+                    "workspaces": [
+                        {
+                            "name": "build",
+                            "workspace": "build"
+                        }
+                    ]
+                }
+            ],
+            "workspaces": [
+                {
+                    "name": "build"
+                },
+                {
+                    "name": "source"
+                }
+            ]
+        },
+        "taskRunTemplate": {
+            "serviceAccountName": "default"
+        },
+        "timeouts": {
+            "pipeline": "1h0m0s"
+        },
+        "workspaces": [
+            {
+                "name": "build",
+                "subPath": "source",
+                "volumeClaimTemplate": {
+                    "metadata": {
+                        "creationTimestamp": null
+                    },
+                    "spec": {
+                        "accessModes": [
+                            "ReadWriteOnce"
+                        ],
+                        "resources": {
+                            "requests": {
+                                "storage": "1Gi"
+                            }
+                        }
+                    },
+                    "status": {}
+                }
+            },
+            {
+                "configMap": {
+                    "name": "test-function"
+                },
+                "name": "source"
+            }
+        ]
+    },
+    "status": {
+        "childReferences": [
+            {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "TaskRun",
+                "name": "mindwm-function-build-run-copy",
+                "pipelineTaskName": "copy"
+            },
+            {
+                "apiVersion": "tekton.dev/v1",
+                "kind": "TaskRun",
+                "name": "mindwm-function-build-run-buildpack",
+                "pipelineTaskName": "buildpack"
+            }
+        ],
+        "conditions": [
+            {
+                "lastTransitionTime": "2025-05-21T20:04:19Z",
+                "message": "Tasks Completed: 1 (Failed: 0, Cancelled 0), Incomplete: 1, Skipped: 0",
+                "reason": "Running",
+                "status": "Unknown",
+                "type": "Succeeded"
+            }
+        ],
+        "pipelineSpec": {
+            "tasks": [
+                {
+                    "name": "copy",
+                    "taskSpec": {
+                        "metadata": {},
+                        "spec": null,
+                        "steps": [
+                            {
+                                "computeResources": {},
+                                "image": "busybox",
+                                "name": "copy-app-files",
+                                "script": "#!/bin/sh\ncp -vLr /workspace/source/* /workspace/build\n"
+                            }
+                        ]
+                    },
+                    "workspaces": [
+                        {
+                            "name": "source",
+                            "workspace": "source"
+                        },
+                        {
+                            "name": "build",
+                            "workspace": "build"
+                        }
+                    ]
+                },
+                {
+                    "name": "buildpack",
+                    "params": [
+                        {
+                            "name": "REGISTRY_ENDPOINT",
+                            "value": "zot-int.zot.svc.cluster.local:5000"
+                        }
+                    ],
+                    "taskSpec": {
+                        "metadata": {},
+                        "spec": null,
+                        "steps": [
+                            {
+                                "command": [
+                                    "pack",
+                                    "build",
+                                    "$(params.REGISTRY_ENDPOINT)/test3:latest",
+                                    "--builder",
+                                    "gcr.io/buildpacks/builder:google-22",
+                                    "--workspace",
+                                    "/workspace/build",
+                                    "--docker-host=inherit",
+                                    "--publish"
+                                ],
+                                "computeResources": {},
+                                "env": [
+                                    {
+                                        "name": "CNB_INSECURE_REGISTRIES",
+                                        "value": "zot-int.zot:5000;zot.zot.svc.cluster.local:5000"
+                                    }
+                                ],
+                                "image": "buildpacksio/pack:latest",
+                                "name": "pack-build",
+                                "securityContext": {
+                                    "allowPrivilegeEscalation": true,
+                                    "capabilities": {
+                                        "add": [
+                                            "ALL"
+                                        ]
+                                    },
+                                    "privileged": true,
+                                    "runAsGroup": 0,
+                                    "runAsUser": 0
+                                },
+                                "volumeMounts": [
+                                    {
+                                        "mountPath": "/var/run/docker.sock",
+                                        "name": "docker-socket"
+                                    }
+                                ],
+                                "workingDir": "/workspace/build"
+                            }
+                        ],
+                        "volumes": [
+                            {
+                                "hostPath": {
+                                    "path": "/var/run/docker.sock",
+                                    "type": "Socket"
+                                },
+                                "name": "docker-socket"
+                            }
+                        ]
+                    },
+                    "workspaces": [
+                        {
+                            "name": "build",
+                            "workspace": "build"
+                        }
+                    ]
+                }
+            ],
+            "workspaces": [
+                {
+                    "name": "build"
+                },
+                {
+                    "name": "source"
+                }
+            ]
+        },
+        "provenance": {
+            "featureFlags": {
+                "awaitSidecarReadiness": true,
+                "coschedule": "workspaces",
+                "enableAPIFields": "beta",
+                "enableProvenanceInStatus": true,
+                "enforceNonfalsifiability": "none",
+                "maxResultSize": 4096,
+                "resultExtractionMethod": "termination-message",
+                "runningInEnvWithInjectedSidecars": true,
+                "verificationNoMatchPolicy": "ignore"
+            }
+        },
+        "startTime": "2025-05-21T20:03:25Z"
+    }
+}
