@@ -1,0 +1,16 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'b5c1dbd9-da02-4edd-a10d-01b15b4aa349', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eb4ba33b-73e2-49a0-8fdb-ce3bcb9fcbdd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '95fb2534-47c6-43d0-a6bf-4c6281098d1e', 'Date': 'Wed, 21 May 2025 21:18:01 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '1eda68f4-a94a-4d47-8153-6e8b47e094dc', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eb4ba33b-73e2-49a0-8fdb-ce3bcb9fcbdd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '95fb2534-47c6-43d0-a6bf-4c6281098d1e', 'Date': 'Wed, 21 May 2025 21:18:02 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'db8f1086-8f5c-4b9a-8d28-8278f99071c5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eb4ba33b-73e2-49a0-8fdb-ce3bcb9fcbdd', 'X-Kubernetes-Pf-Prioritylevel-Uid': '95fb2534-47c6-43d0-a6bf-4c6281098d1e', 'Date': 'Wed, 21 May 2025 21:18:03 GMT', 'Content-Length': '214'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-aphrodite\" not found","reason":"NotFound","details":{"name":"context-aphrodite","kind":"namespaces"},"code":404}
