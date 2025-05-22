@@ -1,0 +1,1 @@
+ERROR    root:conftest.py:839 XXX test-function
