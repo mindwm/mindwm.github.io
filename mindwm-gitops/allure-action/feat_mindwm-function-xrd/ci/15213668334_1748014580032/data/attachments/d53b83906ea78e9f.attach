@@ -1,0 +1,285 @@
+google-22: Pulling from buildpacks/builder
+e1a89dea01a6: Pulling fs layer
+1d75acd67b98: Pulling fs layer
+7722f281429c: Pulling fs layer
+0005eda83172: Pulling fs layer
+182afb1fe5dc: Pulling fs layer
+1a82443b3661: Pulling fs layer
+96fc089b2e8a: Pulling fs layer
+93062e971f53: Pulling fs layer
+352fda92b74e: Pulling fs layer
+fb6b021eb60e: Pulling fs layer
+102d9c412fdc: Pulling fs layer
+3cf65320adbc: Pulling fs layer
+4450e4f8b8ba: Pulling fs layer
+baf4e69af2e1: Pulling fs layer
+1c6074c08cfa: Pulling fs layer
+19fd0e7ea285: Pulling fs layer
+54da8e271117: Pulling fs layer
+b3e87017abae: Pulling fs layer
+58284057e6b9: Pulling fs layer
+8159e98d550e: Pulling fs layer
+8d2effe99a5f: Pulling fs layer
+e8e4c9f6846d: Pulling fs layer
+6f2ffae5495d: Pulling fs layer
+130bbfa9a515: Pulling fs layer
+47db7f04116e: Pulling fs layer
+b44cebfbf60f: Pulling fs layer
+191a3f1ce0fb: Pulling fs layer
+5150602947f7: Pulling fs layer
+c0d3796ba0a3: Pulling fs layer
+1b5a46ee8565: Pulling fs layer
+e8cf3bcd3411: Pulling fs layer
+39886208cde0: Pulling fs layer
+9752be9e0dbe: Pulling fs layer
+5c6b2bc1ea57: Pulling fs layer
+ba762a9c2bc7: Pulling fs layer
+603c2daa3ae9: Pulling fs layer
+1a68cad34736: Pulling fs layer
+ab24f270c301: Pulling fs layer
+1d8676d1df9f: Pulling fs layer
+e9456a3a89d9: Pulling fs layer
+b945d3b0b07a: Pulling fs layer
+ab435ac499b4: Pulling fs layer
+c1429c8af8cb: Pulling fs layer
+d693999f2a25: Pulling fs layer
+15c728d663b7: Pulling fs layer
+ede6eb85d0ea: Pulling fs layer
+1875f662859b: Pulling fs layer
+3e894c6156d1: Pulling fs layer
+ba69a603979a: Pulling fs layer
+b57b4e5404ed: Pulling fs layer
+6b5ecf0c998a: Pulling fs layer
+5420f5a5932b: Pulling fs layer
+6d0dbaaec8a4: Pulling fs layer
+30696ee89d57: Pulling fs layer
+f8cd74e3f454: Pulling fs layer
+327a7c843995: Pulling fs layer
+8c93a4dc9691: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+0005eda83172: Waiting
+182afb1fe5dc: Waiting
+1a82443b3661: Waiting
+96fc089b2e8a: Waiting
+93062e971f53: Waiting
+352fda92b74e: Waiting
+fb6b021eb60e: Waiting
+102d9c412fdc: Waiting
+3cf65320adbc: Waiting
+4450e4f8b8ba: Waiting
+baf4e69af2e1: Waiting
+1c6074c08cfa: Waiting
+19fd0e7ea285: Waiting
+54da8e271117: Waiting
+b3e87017abae: Waiting
+58284057e6b9: Waiting
+8159e98d550e: Waiting
+8d2effe99a5f: Waiting
+e8e4c9f6846d: Waiting
+6f2ffae5495d: Waiting
+130bbfa9a515: Waiting
+47db7f04116e: Waiting
+b44cebfbf60f: Waiting
+191a3f1ce0fb: Waiting
+5150602947f7: Waiting
+c0d3796ba0a3: Waiting
+1b5a46ee8565: Waiting
+e8cf3bcd3411: Waiting
+39886208cde0: Waiting
+9752be9e0dbe: Waiting
+5c6b2bc1ea57: Waiting
+6b5ecf0c998a: Waiting
+ba762a9c2bc7: Waiting
+5420f5a5932b: Waiting
+6d0dbaaec8a4: Waiting
+603c2daa3ae9: Waiting
+30696ee89d57: Waiting
+1a68cad34736: Waiting
+d693999f2a25: Waiting
+ab24f270c301: Waiting
+f8cd74e3f454: Waiting
+15c728d663b7: Waiting
+ede6eb85d0ea: Waiting
+327a7c843995: Waiting
+ab435ac499b4: Waiting
+1875f662859b: Waiting
+b945d3b0b07a: Waiting
+c1429c8af8cb: Waiting
+3e894c6156d1: Waiting
+8c93a4dc9691: Waiting
+ba69a603979a: Waiting
+4f4fb700ef54: Waiting
+1d8676d1df9f: Waiting
+b57b4e5404ed: Waiting
+e9456a3a89d9: Waiting
+1d75acd67b98: Download complete
+e1a89dea01a6: Verifying Checksum
+e1a89dea01a6: Download complete
+182afb1fe5dc: Download complete
+0005eda83172: Verifying Checksum
+0005eda83172: Download complete
+7722f281429c: Verifying Checksum
+7722f281429c: Download complete
+96fc089b2e8a: Verifying Checksum
+96fc089b2e8a: Download complete
+1a82443b3661: Verifying Checksum
+1a82443b3661: Download complete
+93062e971f53: Verifying Checksum
+93062e971f53: Download complete
+fb6b021eb60e: Download complete
+352fda92b74e: Verifying Checksum
+352fda92b74e: Download complete
+102d9c412fdc: Download complete
+e1a89dea01a6: Pull complete
+1d75acd67b98: Pull complete
+3cf65320adbc: Verifying Checksum
+3cf65320adbc: Download complete
+4450e4f8b8ba: Verifying Checksum
+4450e4f8b8ba: Download complete
+baf4e69af2e1: Download complete
+1c6074c08cfa: Verifying Checksum
+1c6074c08cfa: Download complete
+19fd0e7ea285: Download complete
+54da8e271117: Verifying Checksum
+54da8e271117: Download complete
+b3e87017abae: Verifying Checksum
+b3e87017abae: Download complete
+58284057e6b9: Verifying Checksum
+58284057e6b9: Download complete
+e8e4c9f6846d: Verifying Checksum
+e8e4c9f6846d: Download complete
+8d2effe99a5f: Download complete
+8159e98d550e: Verifying Checksum
+8159e98d550e: Download complete
+6f2ffae5495d: Verifying Checksum
+6f2ffae5495d: Download complete
+130bbfa9a515: Verifying Checksum
+130bbfa9a515: Download complete
+b44cebfbf60f: Verifying Checksum
+b44cebfbf60f: Download complete
+47db7f04116e: Verifying Checksum
+47db7f04116e: Download complete
+191a3f1ce0fb: Verifying Checksum
+191a3f1ce0fb: Download complete
+5150602947f7: Verifying Checksum
+5150602947f7: Download complete
+c0d3796ba0a3: Verifying Checksum
+c0d3796ba0a3: Download complete
+1b5a46ee8565: Verifying Checksum
+1b5a46ee8565: Download complete
+e8cf3bcd3411: Verifying Checksum
+e8cf3bcd3411: Download complete
+39886208cde0: Verifying Checksum
+39886208cde0: Download complete
+9752be9e0dbe: Verifying Checksum
+9752be9e0dbe: Download complete
+5c6b2bc1ea57: Verifying Checksum
+5c6b2bc1ea57: Download complete
+7722f281429c: Pull complete
+0005eda83172: Pull complete
+182afb1fe5dc: Pull complete
+603c2daa3ae9: Download complete
+ba762a9c2bc7: Verifying Checksum
+ba762a9c2bc7: Download complete
+1a82443b3661: Pull complete
+96fc089b2e8a: Pull complete
+93062e971f53: Pull complete
+1a68cad34736: Verifying Checksum
+1a68cad34736: Download complete
+352fda92b74e: Pull complete
+fb6b021eb60e: Pull complete
+ab24f270c301: Verifying Checksum
+ab24f270c301: Download complete
+102d9c412fdc: Pull complete
+1d8676d1df9f: Verifying Checksum
+1d8676d1df9f: Download complete
+3cf65320adbc: Pull complete
+4450e4f8b8ba: Pull complete
+baf4e69af2e1: Pull complete
+1c6074c08cfa: Pull complete
+19fd0e7ea285: Pull complete
+54da8e271117: Pull complete
+b945d3b0b07a: Verifying Checksum
+b945d3b0b07a: Download complete
+b3e87017abae: Pull complete
+e9456a3a89d9: Verifying Checksum
+e9456a3a89d9: Download complete
+58284057e6b9: Pull complete
+8159e98d550e: Pull complete
+ab435ac499b4: Verifying Checksum
+ab435ac499b4: Download complete
+8d2effe99a5f: Pull complete
+e8e4c9f6846d: Pull complete
+6f2ffae5495d: Pull complete
+130bbfa9a515: Pull complete
+c1429c8af8cb: Verifying Checksum
+c1429c8af8cb: Download complete
+d693999f2a25: Verifying Checksum
+d693999f2a25: Download complete
+47db7f04116e: Pull complete
+b44cebfbf60f: Pull complete
+191a3f1ce0fb: Pull complete
+15c728d663b7: Verifying Checksum
+15c728d663b7: Download complete
+5150602947f7: Pull complete
+c0d3796ba0a3: Pull complete
+ede6eb85d0ea: Download complete
+1875f662859b: Verifying Checksum
+1875f662859b: Download complete
+1b5a46ee8565: Pull complete
+e8cf3bcd3411: Pull complete
+ba69a603979a: Verifying Checksum
+ba69a603979a: Download complete
+39886208cde0: Pull complete
+3e894c6156d1: Verifying Checksum
+3e894c6156d1: Download complete
+9752be9e0dbe: Pull complete
+5c6b2bc1ea57: Pull complete
+b57b4e5404ed: Verifying Checksum
+b57b4e5404ed: Download complete
+ba762a9c2bc7: Pull complete
+603c2daa3ae9: Pull complete
+6b5ecf0c998a: Verifying Checksum
+6b5ecf0c998a: Download complete
+5420f5a5932b: Verifying Checksum
+5420f5a5932b: Download complete
+1a68cad34736: Pull complete
+6d0dbaaec8a4: Verifying Checksum
+6d0dbaaec8a4: Download complete
+ab24f270c301: Pull complete
+f8cd74e3f454: Verifying Checksum
+f8cd74e3f454: Download complete
+1d8676d1df9f: Pull complete
+e9456a3a89d9: Pull complete
+327a7c843995: Verifying Checksum
+327a7c843995: Download complete
+b945d3b0b07a: Pull complete
+ab435ac499b4: Pull complete
+8c93a4dc9691: Verifying Checksum
+8c93a4dc9691: Download complete
+c1429c8af8cb: Pull complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+30696ee89d57: Verifying Checksum
+30696ee89d57: Download complete
+d693999f2a25: Pull complete
+15c728d663b7: Pull complete
+ede6eb85d0ea: Pull complete
+1875f662859b: Pull complete
+3e894c6156d1: Pull complete
+ba69a603979a: Pull complete
+b57b4e5404ed: Pull complete
+6b5ecf0c998a: Pull complete
+5420f5a5932b: Pull complete
+6d0dbaaec8a4: Pull complete
+30696ee89d57: Pull complete
+f8cd74e3f454: Pull complete
+327a7c843995: Pull complete
+8c93a4dc9691: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:c564ac797359005eb02393b4b897bccbe82fa511f8eeea39c0ac2c5d27272f51
+Status: Downloaded newer image for gcr.io/buildpacks/builder:google-22
+Warning: PACK_VOLUME_KEY is unset; set this environment variable to a secret value to avoid creating a new volume cache on every build
+===> ANALYZING
+ERROR: failed to initialize analyzer: validating registry read access: failed to ensure registry read access to host-registry.mindwm.local:30001/test3:latest: Get "https://host-registry.mindwm.local:30001/v2/": dial tcp: lookup host-registry.mindwm.local on 127.0.0.11:53: no such host; Get "http://host-registry.mindwm.local:30001/v2/": dial tcp: lookup host-registry.mindwm.local on 127.0.0.11:53: no such host
+ERROR: failed to build: executing lifecycle: failed with status code: 1
