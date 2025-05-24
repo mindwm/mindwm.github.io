@@ -1,0 +1,13 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '15229cdb-6031-4841-a933-1b0e77c50173', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'a09d492b-46ca-4c3b-b259-815287bbc8c6', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'aef4e640-688b-474d-a39c-fddabd7e3aac', 'Date': 'Sat, 24 May 2025 04:58:39 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '443de36a-710f-413c-af64-f570082738d1', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'a09d492b-46ca-4c3b-b259-815287bbc8c6', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'aef4e640-688b-474d-a39c-fddabd7e3aac', 'Date': 'Sat, 24 May 2025 04:58:40 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
