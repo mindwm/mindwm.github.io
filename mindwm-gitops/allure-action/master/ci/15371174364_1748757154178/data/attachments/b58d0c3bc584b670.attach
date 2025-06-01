@@ -1,0 +1,204 @@
+Collecting git+https://github.com/mindwm/mindwm-sdk-python-ng.git@master (from -r requirements.txt (line 1))
+  Cloning https://github.com/mindwm/mindwm-sdk-python-ng.git (to revision master) to /tmp/pip-req-build-_yt137eh
+  Resolved https://github.com/mindwm/mindwm-sdk-python-ng.git to commit 288f7270de1d43be1cff2d7dd227dcd7a6e9068b
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting nats-py (from -r requirements.txt (line 2))
+  Using cached nats_py-2.10.0.tar.gz (113 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting python-decouple (from -r requirements.txt (line 3))
+  Downloading python_decouple-3.8-py3-none-any.whl.metadata (14 kB)
+Collecting aiofiles (from -r requirements.txt (line 4))
+  Downloading aiofiles-24.1.0-py3-none-any.whl.metadata (10 kB)
+Collecting dbus-next (from -r requirements.txt (line 5))
+  Downloading dbus_next-0.2.3-py3-none-any.whl.metadata (7.0 kB)
+Collecting pyte (from -r requirements.txt (line 6))
+  Downloading pyte-0.8.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting textfsm (from -r requirements.txt (line 7))
+  Downloading textfsm-2.1.0-py2.py3-none-any.whl.metadata (2.7 kB)
+Collecting tabulate (from -r requirements.txt (line 8))
+  Downloading tabulate-0.9.0-py3-none-any.whl.metadata (34 kB)
+Collecting pydantic (from -r requirements.txt (line 9))
+  Using cached pydantic-2.11.5-py3-none-any.whl.metadata (67 kB)
+Collecting python-dateutil (from -r requirements.txt (line 10))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3 (from -r requirements.txt (line 11))
+  Using cached urllib3-2.4.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting urwid (from -r requirements.txt (line 12))
+  Downloading urwid-3.0.2-py3-none-any.whl.metadata (10 kB)
+Collecting blessed (from -r requirements.txt (line 13))
+  Downloading blessed-1.21.0-py2.py3-none-any.whl.metadata (13 kB)
+Collecting opentelemetry-api (from -r requirements.txt (line 14))
+  Using cached opentelemetry_api-1.33.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting opentelemetry-sdk (from -r requirements.txt (line 15))
+  Using cached opentelemetry_sdk-1.33.1-py3-none-any.whl.metadata (1.6 kB)
+Collecting opentelemetry-instrumentation (from -r requirements.txt (line 16))
+  Downloading opentelemetry_instrumentation-0.54b1-py3-none-any.whl.metadata (6.8 kB)
+Collecting opentelemetry-exporter-otlp-proto-grpc (from -r requirements.txt (line 17))
+  Downloading opentelemetry_exporter_otlp_proto_grpc-1.33.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting fastapi (from -r requirements.txt (line 18))
+  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)
+Collecting neontology (from -r requirements.txt (line 19))
+  Downloading neontology-2.0.5-py3-none-any.whl.metadata (7.4 kB)
+Collecting surrealdb==0.4.1 (from -r requirements.txt (line 20))
+  Downloading surrealdb-0.4.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting cbor2<6.0.0,>=5.6.5 (from surrealdb==0.4.1->-r requirements.txt (line 20))
+  Downloading cbor2-5.6.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.0 kB)
+Collecting requests<3.0.0,>=2.32.3 (from surrealdb==0.4.1->-r requirements.txt (line 20))
+  Using cached requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting websockets<15.0,>=14.1 (from surrealdb==0.4.1->-r requirements.txt (line 20))
+  Downloading websockets-14.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting wcwidth (from pyte->-r requirements.txt (line 6))
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Collecting annotated-types>=0.6.0 (from pydantic->-r requirements.txt (line 9))
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic->-r requirements.txt (line 9))
+  Downloading pydantic_core-2.33.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting typing-extensions>=4.12.2 (from pydantic->-r requirements.txt (line 9))
+  Using cached typing_extensions-4.13.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic->-r requirements.txt (line 9))
+  Using cached typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting six>=1.5 (from python-dateutil->-r requirements.txt (line 10))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting deprecated>=1.2.6 (from opentelemetry-api->-r requirements.txt (line 14))
+  Using cached Deprecated-1.2.18-py2.py3-none-any.whl.metadata (5.7 kB)
+Collecting importlib-metadata<8.7.0,>=6.0 (from opentelemetry-api->-r requirements.txt (line 14))
+  Using cached importlib_metadata-8.6.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting opentelemetry-semantic-conventions==0.54b1 (from opentelemetry-sdk->-r requirements.txt (line 15))
+  Using cached opentelemetry_semantic_conventions-0.54b1-py3-none-any.whl.metadata (2.5 kB)
+Collecting packaging>=18.0 (from opentelemetry-instrumentation->-r requirements.txt (line 16))
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting wrapt<2.0.0,>=1.0.0 (from opentelemetry-instrumentation->-r requirements.txt (line 16))
+  Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.4 kB)
+Collecting googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-grpc->-r requirements.txt (line 17))
+  Downloading googleapis_common_protos-1.70.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting grpcio<2.0.0,>=1.63.2 (from opentelemetry-exporter-otlp-proto-grpc->-r requirements.txt (line 17))
+  Downloading grpcio-1.71.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+Collecting opentelemetry-exporter-otlp-proto-common==1.33.1 (from opentelemetry-exporter-otlp-proto-grpc->-r requirements.txt (line 17))
+  Downloading opentelemetry_exporter_otlp_proto_common-1.33.1-py3-none-any.whl.metadata (1.9 kB)
+Collecting opentelemetry-proto==1.33.1 (from opentelemetry-exporter-otlp-proto-grpc->-r requirements.txt (line 17))
+  Using cached opentelemetry_proto-1.33.1-py3-none-any.whl.metadata (2.4 kB)
+Collecting protobuf<6.0,>=5.0 (from opentelemetry-proto==1.33.1->opentelemetry-exporter-otlp-proto-grpc->-r requirements.txt (line 17))
+  Using cached protobuf-5.29.5-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+Collecting starlette<0.47.0,>=0.40.0 (from fastapi->-r requirements.txt (line 18))
+  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
+Collecting neo4j<6,>5 (from neontology->-r requirements.txt (line 19))
+  Using cached neo4j-5.28.1-py3-none-any.whl.metadata (5.9 kB)
+Collecting pandas<3,>2 (from neontology->-r requirements.txt (line 19))
+  Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 24.8 MB/s eta 0:00:00
+Collecting python-dotenv<2,>1 (from neontology->-r requirements.txt (line 19))
+  Using cached python_dotenv-1.1.0-py3-none-any.whl.metadata (24 kB)
+Collecting Jinja2<4,>3 (from neontology->-r requirements.txt (line 19))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting zipp>=3.20 (from importlib-metadata<8.7.0,>=6.0->opentelemetry-api->-r requirements.txt (line 14))
+  Using cached zipp-3.22.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting MarkupSafe>=2.0 (from Jinja2<4,>3->neontology->-r requirements.txt (line 19))
+  Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+Collecting pytz (from neo4j<6,>5->neontology->-r requirements.txt (line 19))
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting numpy>=1.23.2 (from pandas<3,>2->neontology->-r requirements.txt (line 19))
+  Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 13.7 MB/s eta 0:00:00
+Collecting tzdata>=2022.7 (from pandas<3,>2->neontology->-r requirements.txt (line 19))
+  Downloading tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting charset-normalizer<4,>=2 (from requests<3.0.0,>=2.32.3->surrealdb==0.4.1->-r requirements.txt (line 20))
+  Downloading charset_normalizer-3.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+Collecting idna<4,>=2.5 (from requests<3.0.0,>=2.32.3->surrealdb==0.4.1->-r requirements.txt (line 20))
+  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting certifi>=2017.4.17 (from requests<3.0.0,>=2.32.3->surrealdb==0.4.1->-r requirements.txt (line 20))
+  Using cached certifi-2025.4.26-py3-none-any.whl.metadata (2.5 kB)
+Collecting anyio<5,>=3.6.2 (from starlette<0.47.0,>=0.40.0->fastapi->-r requirements.txt (line 18))
+  Using cached anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting sniffio>=1.1 (from anyio<5,>=3.6.2->starlette<0.47.0,>=0.40.0->fastapi->-r requirements.txt (line 18))
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Downloading surrealdb-0.4.1-py3-none-any.whl (26 kB)
+Downloading python_decouple-3.8-py3-none-any.whl (9.9 kB)
+Downloading aiofiles-24.1.0-py3-none-any.whl (15 kB)
+Downloading dbus_next-0.2.3-py3-none-any.whl (57 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.9/57.9 kB 18.5 MB/s eta 0:00:00
+Downloading pyte-0.8.2-py3-none-any.whl (31 kB)
+Downloading textfsm-2.1.0-py2.py3-none-any.whl (44 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.3/44.3 kB 12.7 MB/s eta 0:00:00
+Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
+Using cached pydantic-2.11.5-py3-none-any.whl (444 kB)
+Downloading pydantic_core-2.33.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 82.3 MB/s eta 0:00:00
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached urllib3-2.4.0-py3-none-any.whl (128 kB)
+Downloading urwid-3.0.2-py3-none-any.whl (295 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 296.0/296.0 kB 62.8 MB/s eta 0:00:00
+Downloading blessed-1.21.0-py2.py3-none-any.whl (84 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 84.7/84.7 kB 12.1 MB/s eta 0:00:00
+Using cached opentelemetry_api-1.33.1-py3-none-any.whl (65 kB)
+Using cached opentelemetry_sdk-1.33.1-py3-none-any.whl (118 kB)
+Using cached opentelemetry_semantic_conventions-0.54b1-py3-none-any.whl (194 kB)
+Downloading opentelemetry_instrumentation-0.54b1-py3-none-any.whl (31 kB)
+Downloading opentelemetry_exporter_otlp_proto_grpc-1.33.1-py3-none-any.whl (18 kB)
+Downloading opentelemetry_exporter_otlp_proto_common-1.33.1-py3-none-any.whl (18 kB)
+Using cached opentelemetry_proto-1.33.1-py3-none-any.whl (55 kB)
+Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.2/95.2 kB 23.6 MB/s eta 0:00:00
+Downloading neontology-2.0.5-py3-none-any.whl (32 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Downloading cbor2-5.6.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (249 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 249.2/249.2 kB 57.3 MB/s eta 0:00:00
+Using cached Deprecated-1.2.18-py2.py3-none-any.whl (10.0 kB)
+Downloading googleapis_common_protos-1.70.0-py3-none-any.whl (294 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.5/294.5 kB 53.2 MB/s eta 0:00:00
+Downloading grpcio-1.71.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.9/5.9 MB 110.2 MB/s eta 0:00:00
+Using cached importlib_metadata-8.6.1-py3-none-any.whl (26 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 134.9/134.9 kB 31.1 MB/s eta 0:00:00
+Using cached neo4j-5.28.1-py3-none-any.whl (312 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Downloading pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 112.5 MB/s eta 0:00:00
+Using cached python_dotenv-1.1.0-py3-none-any.whl (20 kB)
+Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.0/72.0 kB 23.1 MB/s eta 0:00:00
+Using cached typing_extensions-4.13.2-py3-none-any.whl (45 kB)
+Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Downloading websockets-14.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (169 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.9/169.9 kB 27.0 MB/s eta 0:00:00
+Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (83 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.2/83.2 kB 17.7 MB/s eta 0:00:00
+Using cached anyio-4.9.0-py3-none-any.whl (100 kB)
+Using cached certifi-2025.4.26-py3-none-any.whl (159 kB)
+Downloading charset_normalizer-3.4.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (147 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.3/147.3 kB 36.6 MB/s eta 0:00:00
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+Downloading numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 110.8 MB/s eta 0:00:00
+Using cached protobuf-5.29.5-cp38-abi3-manylinux2014_x86_64.whl (319 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Downloading tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 347.8/347.8 kB 63.0 MB/s eta 0:00:00
+Using cached zipp-3.22.0-py3-none-any.whl (9.8 kB)
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Building wheels for collected packages: mindwm-sdk-python, nats-py
+  Building wheel for mindwm-sdk-python (pyproject.toml): started
+  Building wheel for mindwm-sdk-python (pyproject.toml): finished with status 'done'
+  Created wheel for mindwm-sdk-python: filename=mindwm_sdk_python-0.1.0-py3-none-any.whl size=13327 sha256=e465c483e209ea852daa47f7038be911b4f4c7ad2c98c2309d486b1da9da30cd
+  Stored in directory: /tmp/pip-ephem-wheel-cache-n_6rb4xs/wheels/4c/24/9f/309e88d911be777ad9beba78adee64740e31eeb06cefd3031c
+  Building wheel for nats-py (pyproject.toml): started
+  Building wheel for nats-py (pyproject.toml): finished with status 'done'
+  Created wheel for nats-py: filename=nats_py-2.10.0-py3-none-any.whl size=83596 sha256=ef798b7a76f6acdfd33a5f21de1d91a1be3ea4d842383a12fd6af123aede175d
+  Stored in directory: /home/ci/.cache/pip/wheels/22/0f/9a/14f6134d858181c5b1436f2245562b34e9baa1fd58dd1d9b1d
+Successfully built mindwm-sdk-python nats-py
+Installing collected packages: wcwidth, textfsm, pytz, python-decouple, zipp, wrapt, websockets, urwid, urllib3, tzdata, typing-extensions, tabulate, sniffio, six, python-dotenv, pyte, protobuf, packaging, numpy, neo4j, nats-py, mindwm-sdk-python, MarkupSafe, idna, grpcio, dbus-next, charset-normalizer, certifi, cbor2, blessed, annotated-types, aiofiles, typing-inspection, requests, python-dateutil, pydantic-core, opentelemetry-proto, Jinja2, importlib-metadata, googleapis-common-protos, deprecated, anyio, surrealdb, starlette, pydantic, pandas, opentelemetry-exporter-otlp-proto-common, opentelemetry-api, opentelemetry-semantic-conventions, neontology, fastapi, opentelemetry-sdk, opentelemetry-instrumentation, opentelemetry-exporter-otlp-proto-grpc
+Successfully installed Jinja2-3.1.6 MarkupSafe-3.0.2 aiofiles-24.1.0 annotated-types-0.7.0 anyio-4.9.0 blessed-1.21.0 cbor2-5.6.5 certifi-2025.4.26 charset-normalizer-3.4.2 dbus-next-0.2.3 deprecated-1.2.18 fastapi-0.115.12 googleapis-common-protos-1.70.0 grpcio-1.71.0 idna-3.10 importlib-metadata-8.6.1 mindwm-sdk-python-0.1.0 nats-py-2.10.0 neo4j-5.28.1 neontology-2.0.5 numpy-2.2.6 opentelemetry-api-1.33.1 opentelemetry-exporter-otlp-proto-common-1.33.1 opentelemetry-exporter-otlp-proto-grpc-1.33.1 opentelemetry-instrumentation-0.54b1 opentelemetry-proto-1.33.1 opentelemetry-sdk-1.33.1 opentelemetry-semantic-conventions-0.54b1 packaging-25.0 pandas-2.2.3 protobuf-5.29.5 pydantic-2.11.5 pydantic-core-2.33.2 pyte-0.8.2 python-dateutil-2.9.0.post0 python-decouple-3.8 python-dotenv-1.1.0 pytz-2025.2 requests-2.32.3 six-1.17.0 sniffio-1.3.1 starlette-0.46.2 surrealdb-0.4.1 tabulate-0.9.0 textfsm-2.1.0 typing-extensions-4.13.2 typing-inspection-0.4.1 tzdata-2025.2 urllib3-2.4.0 urwid-3.0.2 wcwidth-0.2.13 websockets-14.2 wrapt-1.17.2 zipp-3.22.0
