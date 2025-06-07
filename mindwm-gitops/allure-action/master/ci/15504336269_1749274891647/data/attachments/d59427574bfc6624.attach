@@ -1,0 +1,11 @@
+Unable to find image 'alpine/helm:3.17.0' locally
+3.17.0: Pulling from alpine/helm
+1f3e46996e29: Already exists
+30f4c5f9f804: Pulling fs layer
+a13aea213feb: Pulling fs layer
+30f4c5f9f804: Verifying Checksum
+30f4c5f9f804: Download complete
+30f4c5f9f804: Pull complete
+a13aea213feb: Pull complete
+Digest: sha256:93aaa4b514d91720861dd6c9af51359013b178963a47ab421b7fa648ccc7de80
+Status: Downloaded newer image for alpine/helm:3.17.0
