@@ -7,6 +7,7 @@
     "feat_add_node_red_to_context2",
     "feat_bump_neo4j_plugins",
     "feat_dnsmasq_host_system",
+    "feat_kcl_run",
     "feat_mindwm-function-xrd",
     "feat_node_red_tabs_in_context",
     "fix_knative_tracing_configuration",
