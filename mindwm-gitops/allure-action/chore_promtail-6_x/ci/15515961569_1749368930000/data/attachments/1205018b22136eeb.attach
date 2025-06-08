@@ -1,0 +1,34 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+
+echo aIMqc6trpib9WPVC
+aIMqc6trpib9WPVC
+docker run -i --rm -v ~/.kube:/kube -e KUBECONFIG=/kube/config --network=host -v`pwd`:/host -w /host -u root --entrypoint /bin/sh bitnami/kubectl:1.31.1 -c "\
+	kubectl -n argocd exec -ti deployment/argocd-server -- sh -xc '\
+	argocd login --plaintext --username admin --password aIMqc6trpib9WPVC localhost:8080 ;\
+	for n in 1 2 3 4 5 6; do \
+	        argocd app sync mindwm-gitops --assumeYes --timeout 2100 --async || : \
+		sleep 1;\
+		argocd app wait mindwm-gitops --health --timeout=300 || continue;\
+		exit 0;\
+	done ; \
+	exit 1;\
+	';\
+ "
+'admin:login' logged in successfully
+Context 'localhost:8080' updated
+
+Name:               argocd/mindwm-gitops
+Project:            default
+Server:             https://kubernetes.default.svc
+Namespace:          default
+URL:                https://argocd.example.com/applications/mindwm-gitops
+Source:
+- Repo:             https://github.com/mindwm/mindwm-gitops
+  Target:           chore/promtail-6.x
+  Path:             .
+SyncWindow:         Sync Allowed
+Sync Policy:        Automated
+Sync Status:        Unknown
+Health Status:      Healthy
+
+make[1]: Leaving directory '/home/ci/mindwm-gitops'
