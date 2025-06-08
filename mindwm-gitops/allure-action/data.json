@@ -1,6 +1,7 @@
 {
   "links": [
     "..",
+    "chore_promtail-6_x",
     "chore_switch_to_argo_cd_order_upstream",
     "feat_add_node_red_to_context",
     "feat_add_node_red_to_context2",
