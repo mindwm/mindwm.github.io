@@ -1,0 +1,8 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+export INGRESS_NAME=istio-ingressgateway
+export INGRESS_NS=istio-system
+export INGRESS_HOST=$(kubectl -n "$INGRESS_NS" get service "$INGRESS_NAME" -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
+sudo sed -i -e '/mindwm.local/d' /etc/hosts
+echo $INGRESS_HOST argocd.mindwm.local grafana.mindwm.local vm.mindwm.local nats.mindwm.local neo4j.pink.mindwm.local tempo.mindwm.local loki.mindwm.local neo4j.cyan.mindwm.local zot-int.zot.svc.cluster.local:5000 | sudo tee -a /etc/hosts
+172.233.62.214 argocd.mindwm.local grafana.mindwm.local vm.mindwm.local nats.mindwm.local neo4j.pink.mindwm.local tempo.mindwm.local loki.mindwm.local neo4j.cyan.mindwm.local zot-int.zot.svc.cluster.local:5000
+make[1]: Leaving directory '/home/ci/mindwm-gitops'

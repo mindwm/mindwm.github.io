@@ -1,0 +1,24 @@
+{
+    "specversion": "1.0",
+    "id": "c92ae6b1862846489c1c685e3ee786cd",
+    "source": "org.mindwm.context.blue.knfunc.kafka_cdc",
+    "type": "org.mindwm.v1.graph.created",
+    "subject": "org.mindwm.context.blue.graph.node",
+    "datacontenttype": "application/json",
+    "data": {
+        "type": "org.mindwm.v1.graph.created",
+        "obj": {
+            "traceparent": "00-7df92f3577b34da6a3ce930d0e0e4734-96815d9e32cd6279-01",
+            "tracestate": null,
+            "username": "<user>",
+            "type": "org.mindwm.v1.graph.node.user",
+            "created": null,
+            "merged": null,
+            "atime": 0
+        }
+    },
+    "knativearrivaltime": "2025-06-08T10:24:03.820890585Z",
+    "knativebrokerttl": "255",
+    "traceparent": "00-ca449480f01001f983aa390b31cd0b7d-8a759101b96e4e86-01",
+    "tracestate": ""
+}

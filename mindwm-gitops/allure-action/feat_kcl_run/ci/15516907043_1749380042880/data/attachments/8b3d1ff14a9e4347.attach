@@ -1,0 +1,6 @@
+{
+    "input": "",
+    "output": "function log(msg) {console.log(msg);}",
+    "ps1": "\u276f",
+    "type": "org.mindwm.v1.iodocument"
+}
