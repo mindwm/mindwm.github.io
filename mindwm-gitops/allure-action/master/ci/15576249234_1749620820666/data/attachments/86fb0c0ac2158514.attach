@@ -1,0 +1,13 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+
+echo 7-byzS3p1SzdQdsP
+7-byzS3p1SzdQdsP
+docker run -i --rm -v ~/.kube:/kube -e KUBECONFIG=/kube/config --network=host -v`pwd`:/host -w /host -u root --entrypoint /bin/sh bitnami/kubectl:1.31.1 -c "\
+	kubectl -n argocd exec -ti deployment/argocd-server -- sh -c '\
+			argocd login --plaintext --username admin --password 7-byzS3p1SzdQdsP localhost:8080 ;\
+			argocd app sync mindwm-gitops --assumeYes --timeout 2100 --async; \
+		'\
+	"
+'admin:login' logged in successfully
+Context 'localhost:8080' updated
+make[1]: Leaving directory '/home/ci/mindwm-gitops'

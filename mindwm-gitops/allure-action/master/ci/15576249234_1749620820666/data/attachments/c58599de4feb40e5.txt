@@ -1,0 +1,22 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'e5d310ff-5489-40e5-91bd-99f295abc09d', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3c05f50e-1eb8-4550-8e0a-aadba1f1bbc8', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'be48a1d3-d721-418e-a683-40f944d3b224', 'Date': 'Wed, 11 Jun 2025 05:39:50 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'fc3e6209-a126-4fed-a635-2f27818ef17b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3c05f50e-1eb8-4550-8e0a-aadba1f1bbc8', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'be48a1d3-d721-418e-a683-40f944d3b224', 'Date': 'Wed, 11 Jun 2025 05:39:51 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '2bf3ed98-9eac-494b-b32a-b9508a146b79', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3c05f50e-1eb8-4550-8e0a-aadba1f1bbc8', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'be48a1d3-d721-418e-a683-40f944d3b224', 'Date': 'Wed, 11 Jun 2025 05:39:52 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '35780348-f788-426a-befe-a14513c0871e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '3c05f50e-1eb8-4550-8e0a-aadba1f1bbc8', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'be48a1d3-d721-418e-a683-40f944d3b224', 'Date': 'Wed, 11 Jun 2025 05:39:53 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
