@@ -1,0 +1,4 @@
+ERROR    utils:utils.py:178 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'a59fdac8-ca8e-4303-9285-ee521bcb5a2a', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '6f69733f-b768-4dfe-b684-40da8ac06455', 'X-Kubernetes-Pf-Prioritylevel-Uid': 'a33d188c-bd89-4f32-b7b1-c5c8d6011e86', 'Date': 'Fri, 13 Jun 2025 05:08:28 GMT', 'Content-Length': '234'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"pong\" not found","reason":"NotFound","details":{"name":"pong","group":"serving.knative.dev","kind":"services"},"code":404}
