@@ -1,0 +1,53 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+docker run --rm -v ~/.kube:/root/.kube -e KUBECONFIG=/root/.kube/config --network=host -v`pwd`:/host -w /host --entrypoint /bin/sh alpine/helm:3.17.0 -c "\
+	helm repo add argocd https://argoproj.github.io/argo-helm && \
+	helm repo update argocd && \
+	helm upgrade --install --version 7.9.1 --namespace argocd --create-namespace argocd argocd/argo-cd -f ./argocd_values.yaml --set server.service.servicePortHttp=38080 --set global.image.tag=v2.14.11 --wait --timeout 5m \
+"
+docker run -i --rm -v ~/.kube:/kube -e KUBECONFIG=/kube/config --network=host -v`pwd`:/host -w /host -u root --entrypoint /bin/sh bitnami/kubectl:1.31.1 -c '\
+	kubectl apply -f ./kcl-cmp.yaml && \
+	kubectl -n argocd patch deploy/argocd-repo-server -p "`cat ./patch-argocd-repo-server.yaml`" && \
+	while :; do \
+		kubectl -n argocd get pods -l app.kubernetes.io/name=argocd-repo-server --field-selector=status.phase=Running | grep argocd-repo-server || { \
+			echo -n .; \
+			sleep 1; \
+			continue; \
+		}; \
+		break; \
+	done ; \
+	kubectl wait --for=condition=ready pod -n argocd -l app.kubernetes.io/name=argocd-repo-server --timeout=600s \
+'
+"argocd" has been added to your repositories
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the "argocd" chart repository
+Update Complete. ⎈Happy Helming!⎈
+Release "argocd" does not exist. Installing it now.
+NAME: argocd
+LAST DEPLOYED: Tue Jun 17 04:49:40 2025
+NAMESPACE: argocd
+STATUS: deployed
+REVISION: 1
+TEST SUITE: None
+NOTES:
+In order to access the server UI you have the following options:
+
+1. kubectl port-forward service/argocd-server -n argocd 8080:443
+
+    and then open the browser on http://localhost:8080 and accept the certificate
+
+2. enable ingress in the values file `server.ingress.enabled` and either
+      - Add the annotation for ssl passthrough: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-1-ssl-passthrough
+      - Set the `configs.params."server.insecure"` in the values file and terminate SSL at your ingress: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/#option-2-multiple-ingress-objects-and-hosts
+
+
+After reaching the UI the first time you can login with username: admin and the random password generated during the installation. You can find the password by running:
+
+kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
+
+(You should delete the initial secret afterwards as suggested by the Getting Started Guide: https://argo-cd.readthedocs.io/en/stable/getting_started/#4-login-using-the-cli)
+configmap/kcl-plugin-config created
+deployment.apps/argocd-repo-server patched
+argocd-repo-server-7f5cfd5ff8-rx2j4   1/1     Running   0          17s
+pod/argocd-repo-server-7f5cfd5ff8-rx2j4 condition met
+pod/argocd-repo-server-84bf54cd8c-qmqk4 condition met
+make[1]: Leaving directory '/home/ci/mindwm-gitops'
