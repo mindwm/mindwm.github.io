@@ -1,0 +1,19 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+cat<<EOF | sudo tee /etc/dnsmasq.conf
+server=/svc.cluster.local/127.0.0.1#30002
+server=8.8.8.8
+no-resolv
+listen-address=127.0.0.1
+EOF
+cat<<EOF | sudo tee /etc/resolv.conf
+nameserver 127.0.0.1
+EOF
+sudo systemctl stop systemd-resolved
+sudo systemctl disable systemd-resolved
+sudo systemctl restart dnsmasq
+server=/svc.cluster.local/127.0.0.1#30002
+server=8.8.8.8
+no-resolv
+listen-address=127.0.0.1
+nameserver 127.0.0.1
+make[1]: Leaving directory '/home/ci/mindwm-gitops'

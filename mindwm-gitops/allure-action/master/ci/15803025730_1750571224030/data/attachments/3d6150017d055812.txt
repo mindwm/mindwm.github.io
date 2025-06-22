@@ -1,0 +1,16 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '06ad68e8-b0da-47d8-82b6-42287070f4bb', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '0e8eda5d-539f-4ced-83b6-4fb2a0aa94d9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '5b65e9d2-22ce-4770-b9c1-2c767df3d36c', 'Date': 'Sun, 22 Jun 2025 05:39:23 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'cc3c30d4-b012-4e24-80a7-2d3eee838648', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '0e8eda5d-539f-4ced-83b6-4fb2a0aa94d9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '5b65e9d2-22ce-4770-b9c1-2c767df3d36c', 'Date': 'Sun, 22 Jun 2025 05:39:24 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '369a4f7b-996f-4895-a71e-cde56e1e1c44', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '0e8eda5d-539f-4ced-83b6-4fb2a0aa94d9', 'X-Kubernetes-Pf-Prioritylevel-Uid': '5b65e9d2-22ce-4770-b9c1-2c767df3d36c', 'Date': 'Sun, 22 Jun 2025 05:39:25 GMT', 'Content-Length': '208'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-kypros\" not found","reason":"NotFound","details":{"name":"context-kypros","kind":"namespaces"},"code":404}
