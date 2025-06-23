@@ -1,0 +1,132 @@
+{
+    "apiVersion": "mindwm.io/v1beta1",
+    "kind": "Function",
+    "metadata": {
+        "creationTimestamp": "2025-06-23T05:09:08Z",
+        "finalizers": [
+            "finalizer.apiextensions.crossplane.io"
+        ],
+        "generation": 4,
+        "managedFields": [
+            {
+                "apiVersion": "mindwm.io/v1beta1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:spec": {
+                        ".": {},
+                        "f:compositeDeletePolicy": {},
+                        "f:data": {
+                            ".": {},
+                            "f:func.py": {},
+                            "f:requirements.txt": {}
+                        }
+                    }
+                },
+                "manager": "OpenAPI-Generator",
+                "operation": "Update",
+                "time": "2025-06-23T05:09:08Z"
+            },
+            {
+                "apiVersion": "mindwm.io/v1beta1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:finalizers": {
+                            ".": {},
+                            "v:\"finalizer.apiextensions.crossplane.io\"": {}
+                        }
+                    },
+                    "f:spec": {
+                        "f:compositionRef": {
+                            ".": {},
+                            "f:name": {}
+                        },
+                        "f:compositionRevisionRef": {
+                            ".": {},
+                            "f:name": {}
+                        },
+                        "f:resourceRef": {
+                            ".": {},
+                            "f:apiVersion": {},
+                            "f:kind": {},
+                            "f:name": {}
+                        }
+                    }
+                },
+                "manager": "crossplane",
+                "operation": "Update",
+                "time": "2025-06-23T05:09:08Z"
+            },
+            {
+                "apiVersion": "mindwm.io/v1beta1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:status": {
+                        ".": {},
+                        "f:conditions": {
+                            ".": {},
+                            "k:{\"type\":\"Ready\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:message": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            },
+                            "k:{\"type\":\"Synced\"}": {
+                                ".": {},
+                                "f:lastTransitionTime": {},
+                                "f:reason": {},
+                                "f:status": {},
+                                "f:type": {}
+                            }
+                        }
+                    }
+                },
+                "manager": "crossplane",
+                "operation": "Update",
+                "subresource": "status",
+                "time": "2025-06-23T05:09:08Z"
+            }
+        ],
+        "name": "func1",
+        "namespace": "context-xxx3",
+        "resourceVersion": "22213",
+        "uid": "51821431-a877-47cf-b456-fa7e34499937"
+    },
+    "spec": {
+        "compositeDeletePolicy": "Background",
+        "compositionRef": {
+            "name": "function"
+        },
+        "compositionRevisionRef": {
+            "name": "function-4f2f59a"
+        },
+        "data": {
+            "func.py": "from magika import Magika\nm = Magika()\noutput = data.get('output')\nres = m.identify_bytes(output.encode('utf-8'))\nprint(f\"Magika result: ${res.output.label}\")\nreturn CloudEvent(attributes, data)\n",
+            "requirements.txt": "magika"
+        },
+        "resourceRef": {
+            "apiVersion": "mindwm.io/v1beta1",
+            "kind": "XFunction",
+            "name": "func1-qjvvt"
+        }
+    },
+    "status": {
+        "conditions": [
+            {
+                "lastTransitionTime": "2025-06-23T05:09:08Z",
+                "reason": "ReconcileSuccess",
+                "status": "True",
+                "type": "Synced"
+            },
+            {
+                "lastTransitionTime": "2025-06-23T05:09:08Z",
+                "message": "Claim is waiting for composite resource to become Ready",
+                "reason": "Waiting",
+                "status": "False",
+                "type": "Ready"
+            }
+        ]
+    }
+}
