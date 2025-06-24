@@ -1,0 +1,20 @@
+make[1]: Entering directory '/home/ci/mindwm-gitops'
+docker run -i --rm -v ~/.kube:/kube -e KUBECONFIG=/kube/config --network=host -v`pwd`:/host -w /host -u root --entrypoint /bin/sh bitnami/kubectl:1.31.1 -c '\
+	for i in kcl-function provider-kubernetes provider-helm provider-http; do \
+		SA=`kubectl -n crossplane-system get sa -o name | grep $i | sed -e "s|serviceaccount\/|crossplane-system:|g"`; \
+		test -n "$SA" || continue; \
+		kubectl get clusterrolebinding $i-admin-binding || kubectl create clusterrolebinding $i-admin-binding --clusterrole cluster-admin --serviceaccount=$SA; \
+	done;\
+	SA=crossplane-system:crossplane && \
+	i=crossplane && \
+	kubectl get clusterrolebinding $i-admin-binding || kubectl create clusterrolebinding $i-admin-binding --clusterrole cluster-admin --serviceaccount=$SA &&\
+	SA=knative-eventing:jetstream-ch-dispatcher && \
+	i=jetstream-ch-dispatcher && \
+	kubectl get clusterrolebinding $i-admin-binding || kubectl create clusterrolebinding $i-admin-binding --clusterrole cluster-admin --serviceaccount=$SA \
+    '
+clusterrolebinding.rbac.authorization.k8s.io/provider-kubernetes-admin-binding created
+clusterrolebinding.rbac.authorization.k8s.io/provider-helm-admin-binding created
+clusterrolebinding.rbac.authorization.k8s.io/provider-http-admin-binding created
+clusterrolebinding.rbac.authorization.k8s.io/crossplane-admin-binding created
+clusterrolebinding.rbac.authorization.k8s.io/jetstream-ch-dispatcher-admin-binding created
+make[1]: Leaving directory '/home/ci/mindwm-gitops'

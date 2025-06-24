@@ -1,0 +1,20 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '51c676c3-f70d-4bd6-b82b-0db1e8367ecd', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eaa54b97-ba65-4a65-a67e-4869b12e9b30', 'X-Kubernetes-Pf-Prioritylevel-Uid': '2cc22873-8a93-4b3f-a80c-63c41c8c1947', 'Date': 'Tue, 24 Jun 2025 05:05:11 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'bad65899-4023-48ca-951d-09ae2e41a2e8', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eaa54b97-ba65-4a65-a67e-4869b12e9b30', 'X-Kubernetes-Pf-Prioritylevel-Uid': '2cc22873-8a93-4b3f-a80c-63c41c8c1947', 'Date': 'Tue, 24 Jun 2025 05:05:12 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '7e2dc9a2-eb23-4293-a568-49dbf4330bc7', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'eaa54b97-ba65-4a65-a67e-4869b12e9b30', 'X-Kubernetes-Pf-Prioritylevel-Uid': '2cc22873-8a93-4b3f-a80c-63c41c8c1947', 'Date': 'Tue, 24 Jun 2025 05:05:13 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
