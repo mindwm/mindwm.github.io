@@ -1,0 +1,39 @@
+{
+    "apiVersion": "mindwm.io/v1beta1",
+    "kind": "Function",
+    "metadata": {
+        "creationTimestamp": "2025-06-27T05:08:36Z",
+        "generation": 1,
+        "managedFields": [
+            {
+                "apiVersion": "mindwm.io/v1beta1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:spec": {
+                        ".": {},
+                        "f:compositeDeletePolicy": {},
+                        "f:data": {
+                            ".": {},
+                            "f:func.py": {},
+                            "f:requirements.txt": {}
+                        }
+                    }
+                },
+                "manager": "OpenAPI-Generator",
+                "operation": "Update",
+                "time": "2025-06-27T05:08:36Z"
+            }
+        ],
+        "name": "yyy",
+        "namespace": "context-cyan",
+        "resourceVersion": "29014",
+        "uid": "7cdd74bb-30d7-43b6-a975-fae6bb66140c"
+    },
+    "spec": {
+        "compositeDeletePolicy": "Background",
+        "data": {
+            "func.py": "from magika import Magika\nm = Magika()\noutput = data.get('output')\nres = m.identify_bytes(output.encode('utf-8'))\nprint(f\"Magika result: ${res.output.label}\")\nreturn CloudEvent(attributes, data)\n",
+            "requirements.txt": "magika"
+        }
+    }
+}

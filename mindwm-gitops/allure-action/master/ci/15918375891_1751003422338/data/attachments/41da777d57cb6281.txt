@@ -1,0 +1,37 @@
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '0e5a9649-a024-4379-8915-35c4611dfd9b', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:44 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '52190bb4-8a6b-413a-9954-5c2b05db835e', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:45 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '70534b59-1515-4d4e-a30f-2a69de96dc74', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:46 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '5d7f6255-6238-4dc3-90c9-494c311260c5', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:47 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c4b97104-d785-4341-ab03-34b262df5ef3', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:48 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+WARNING  kubetest:utils.py:139 got api exception while waiting: (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': '71f8fd4c-d5af-4c9e-b085-fe1a7ca758d0', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': '813c6e8c-5432-472f-8156-43cc3fca1f87', 'X-Kubernetes-Pf-Prioritylevel-Uid': '20bcee29-d290-4a57-adb7-6878e3730032', 'Date': 'Fri, 27 Jun 2025 05:05:49 GMT', 'Content-Length': '204'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"namespaces \"context-cyan\" not found","reason":"NotFound","details":{"name":"context-cyan","kind":"namespaces"},"code":404}
+
+
+ERROR    utils:utils.py:56 'sh.helm.release.v1.cyan-neo4j.v1'
