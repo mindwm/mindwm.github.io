@@ -1,0 +1,23 @@
+Unable to find image 'kcllang/kcl:v0.11.0' locally
+v0.11.0: Pulling from kcllang/kcl
+69fb10dc82f9: Pulling fs layer
+03035ec2fa27: Pulling fs layer
+7599552ab6cd: Pulling fs layer
+567a631d3fc4: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+567a631d3fc4: Waiting
+4f4fb700ef54: Waiting
+69fb10dc82f9: Verifying Checksum
+69fb10dc82f9: Download complete
+03035ec2fa27: Verifying Checksum
+03035ec2fa27: Download complete
+4f4fb700ef54: Download complete
+567a631d3fc4: Verifying Checksum
+567a631d3fc4: Download complete
+69fb10dc82f9: Pull complete
+03035ec2fa27: Pull complete
+7599552ab6cd: Pull complete
+567a631d3fc4: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:85bcb47c3dc674ec8f548c5179896c3e5253a57dbc08ecb8ba60c1b1b6b5d6d9
+Status: Downloaded newer image for kcllang/kcl:v0.11.0

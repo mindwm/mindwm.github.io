@@ -1,0 +1,7 @@
+NAME                    URL                                                               LATESTCREATED                 LATESTREADY         READY     REASON
+clipboard               http://clipboard.context-cyan.172.233.43.155.nip.io               clipboard-00001               clipboard-00001     True      
+dead-letter             http://dead-letter.context-cyan.172.233.43.155.nip.io             dead-letter-00001             dead-letter-00001   True      
+iocontext               http://iocontext.context-cyan.172.233.43.155.nip.io               iocontext-00001               iocontext-00001     True      
+kafka-cdc               http://kafka-cdc.context-cyan.172.233.43.155.nip.io               kafka-cdc-00001               kafka-cdc-00001     True      
+knative-function-test   http://knative-function-test.context-cyan.172.233.43.155.nip.io   knative-function-test-00001                       Unknown   RevisionMissing
+pong                    http://pong.context-cyan.172.233.43.155.nip.io                    pong-00001                    pong-00001          True      
