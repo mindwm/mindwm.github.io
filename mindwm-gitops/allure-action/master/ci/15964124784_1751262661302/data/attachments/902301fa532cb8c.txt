@@ -1,0 +1,4 @@
+ERROR    utils:utils.py:178 custom_object_wait_for:exists (404)
+Reason: Not Found
+HTTP response headers: HTTPHeaderDict({'Audit-Id': 'c9d079e8-7768-4f05-9274-5d5d177c90c0', 'Cache-Control': 'no-cache, private', 'Content-Type': 'application/json', 'X-Kubernetes-Pf-Flowschema-Uid': 'b0769257-8488-4e6a-8a38-d74256008dbf', 'X-Kubernetes-Pf-Prioritylevel-Uid': '83ab32c2-4e1a-477b-8833-4a2934334538', 'Date': 'Mon, 30 Jun 2025 05:18:50 GMT', 'Content-Length': '244'})
+HTTP response body: {"kind":"Status","apiVersion":"v1","metadata":{},"status":"Failure","message":"services.serving.knative.dev \"kafka-cdc\" not found","reason":"NotFound","details":{"name":"kafka-cdc","group":"serving.knative.dev","kind":"services"},"code":404}
